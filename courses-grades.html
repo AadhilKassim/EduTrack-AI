@@ -17,10 +17,92 @@
     </style>
 </head>
 <body class="flex h-screen bg-gray-100">
+    <!-- Sidebar -->
+    <div class="w-64 bg-[#5A4033] text-white">
+        <div class="p-4 flex flex-col h-full">
+            <!-- Profile -->
+            <div class="flex items-center mb-8">
+                <div class="w-12 h-12 rounded-full bg-gray-300 mr-3 flex items-center justify-center">
+                    <i class="fas fa-user text-[#5A4033] text-xl"></i>
+                </div>
+                <div>
+                    <p class="font-medium">John Student</p>
+                    <p class="text-xs opacity-75">Student</p>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="flex-1">
+                <ul class="space-y-2">
+                    <li>
+                        <a href="pages/dashboard.html" class="flex items-center p-2 rounded-lg hover:bg-white hover:bg-opacity-10">
+                            <i class="fas fa-tachometer-alt mr-3"></i>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="courses-grades.html" class="flex items-center p-2 rounded-lg bg-white bg-opacity-10">
+                            <i class="fas fa-book mr-3"></i>
+                            Courses & Grades
+                        </a>
+                    </li>
+                    <li>
+                        <a href="ai-recommendations.html" class="flex items-center p-2 rounded-lg hover:bg-white hover:bg-opacity-10">
+                            <i class="fas fa-robot mr-3"></i>
+                            AI Recommendations
+                        </a>
+                    </li>
+                    <li>
+                        <a href="attendance.html" class="flex items-center p-2 rounded-lg hover:bg-white hover:bg-opacity-10">
+                            <i class="fas fa-calendar-check mr-3"></i>
+                            Attendance
+                        </a>
+                    </li>
+                    <li>
+                        <a href="reports-insights.html" class="flex items-center p-2 rounded-lg hover:bg-white hover:bg-opacity-10">
+                            <i class="fas fa-chart-bar mr-3"></i>
+                            Reports & Insights
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main Content -->
     <div class="flex-1 overflow-auto p-8">
-        <a href="dashboard.html" class="text-sm text-[#5A4033] hover:underline mb-4 inline-block">← Back to Dashboard</a>
         <h1 class="playfair text-3xl font-bold text-[#5A4033] mb-6">Courses & Grades</h1>
-        <p class="text-gray-600">This page will display detailed information about your courses and grades.</p>
+        <p class="text-gray-600 mb-6">This page displays detailed information about your courses and grades.</p>
+        
+        <div class="bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-xl font-semibold text-[#5A4033] mb-4">Your Courses</h2>
+            <table class="w-full text-left border-collapse">
+                <thead>
+                    <tr class="bg-gray-200">
+                        <th class="p-3 text-sm font-medium text-gray-700">Course Name</th>
+                        <th class="p-3 text-sm font-medium text-gray-700">Instructor</th>
+                        <th class="p-3 text-sm font-medium text-gray-700">Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-t">
+                        <td class="p-3 text-gray-800">Introduction to Programming</td>
+                        <td class="p-3 text-gray-800">Dr. John Doe</td>
+                        <td class="p-3 text-gray-800">A</td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="p-3 text-gray-800">Data Structures</td>
+                        <td class="p-3 text-gray-800">Prof. Jane Smith</td>
+                        <td class="p-3 text-gray-800">B+</td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="p-3 text-gray-800">Web Development</td>
+                        <td class="p-3 text-gray-800">Ms. Emily Davis</td>
+                        <td class="p-3 text-gray-800">A-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </body>
 </html>
