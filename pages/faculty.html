@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduTrack AI - Faculty Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .playfair { font-family: 'Playfair Display', serif; }
+        .grade-A { background-color: #4CAF50; }
+        .grade-B { background-color: #8BC34A; }
+        .grade-C { background-color: #FFC107; }
+        .grade-D { background-color: #FF9800; }
+        .grade-F { background-color: #F44336; }
+    </style>
+</head>
+<body class="flex h-screen bg-gray-100">
+    <!-- Sidebar -->
+    <div class="w-64 bg-[#5A4033] text-white">
+        <div class="p-4 flex flex-col h-full">
+            <!-- Profile -->
+            <div class="flex items-center mb-8">
+                <div class="w-12 h-12 rounded-full bg-gray-300 mr-3 flex items-center justify-center">
+                    <i class="fas fa-user-tie text-[#5A4033] text-xl"></i>
+                </div>
+                <div>
+                    <p class="font-medium">Dr. Smith</p>
+                    <p class="text-xs opacity-75">Faculty</p>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="flex-1">
+                <ul class="space-y-2">
+                    <li>
+                        <a href="#" class="flex items-center p-2 rounded-lg hover:bg-white hover:bg-opacity-10">
+                            <i class="fas fa-tachometer-alt mr-3"></i>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center p-2 rounded-lg bg-white bg-opacity-10">
+                            <i class="fas fa-chalkboard-teacher mr-3"></i>
+                            Class Performance
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center p-2 rounded-lg hover:bg-white hover:bg-opacity-10">
+                            <i class="fas fa-tasks mr-3"></i>
+                            Grade Assignments
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center p-2 rounded-lg hover:bg-white hover:bg-opacity-10">
+                            <i class="fas fa-robot mr-3"></i>
+                            AI Insights
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="flex-1 overflow-auto">
+        <div class="p-8">
+            <!-- Header -->
+            <div class="mb-8">
+                <h1 class="playfair text-3xl font-bold text-[#5A4033]">Class Performance Overview</h1>
+                <p class="text-gray-600">Mathematics 101 - Spring 2025</p>
+            </div>
+
+            <!-- Class Statistics -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <!-- Average Grade -->
+                <div class="bg-white rounded-xl shadow p-6">
+                    <h3 class="font-medium text-[#5A4033] mb-2">Average Grade</h3>
+                    <div class="flex items-center">
+                        <span class="text-4xl font-bold text-[#5A4033] mr-3">B+</span>
+                        <div class="w-full bg-gray-200 rounded-full h-4">
+                            <div class="bg-[#5A4033] h-4 rounded-full" style="width: 82%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grade Distribution -->
+                <div class="bg-white rounded-xl shadow p-6">
+                    <h3 class="font-medium text-[#5A4033] mb-4">Grade Distribution</h3>
+                    <div class="flex h-6 rounded overflow-hidden">
+                        <div class="grade-A w-1/5" title="A: 20%"></div>
+                        <div class="grade-B w-2/5" title="B: 40%"></div>
+                        <div class="grade-C w-1/5" title="C: 20%"></div>
+                        <div class="grade-D w-1/10" title="D: 10%"></div>
+                        <div class="grade-F w-1/10" title="F: 10%"></div>
+                    </div>
+                    <div class="flex justify-between text-xs mt-2">
+                        <span>A</span>
+                        <span>B</span>
+                        <span>C</span>
+                        <span>D</span>
+                        <span>F</span>
+                    </div>
+                </div>
+
+                <!-- Attendance Rate -->
+                <div class="bg-white rounded-xl shadow p-6">
+                    <h3 class="font-medium text-[#5A4033] mb-2">Attendance Rate</h3>
+                    <div class="flex items-center">
+                        <span class="text-4xl font-bold text-[#5A4033] mr-3">88%</span>
+                        <div class="text-sm">
+                            <div class="flex items-center">
+                                <span class="w-3 h-3 bg-green-500 rounded-full mr-2"></span>
+                                <span>Present: 22</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="w-3 h-3 bg-red-500 rounded-full mr-2"></span>
+                                <span>Absent: 3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Student Roster -->
+            <div class="bg-white rounded-xl shadow overflow-hidden">
+                <div class="p-6">
+                    <h3 class="playfair text-xl font-bold text-[#5A4033] mb-4">Student Roster</h3>
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-[#5A4033] uppercase tracking-wider">Student</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-[#5A4033] uppercase tracking-wider">Current Grade</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-[#5A4033] uppercase tracking-wider">Attendance</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-[#5A4033] uppercase tracking-wider">Last Assignment</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-[#5A4033] uppercase tracking-wider">Trend</th>
+                                </tr>
+                            </thead>
+                            <tbody class="bg-white divide-y divide-gray-200">
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap">
+                                        <div class="flex items-center">
+                                            <div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300 flex items-center justify-center">
+                                                <i class="fas fa-user text-[#5A4033]"></i>
+                                            </div>
+                                            <div class="ml-4">
+                                                <div class="text-sm font-medium text-gray-900">Emily Johnson</div>
+                                                <div class="text-sm text-gray-500">ID: 1001</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap">
+                                        <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">A</span>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">95%</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">A (98%)</td>
+                                    <td class="px-6 py-4 whitespace-nowrap">
+                                        <i class="fas fa-arrow-up text-green-500"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="px-6 py-4 whitespace-nowrap">
+                                        <div class="flex items-center">
+                                            <div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300 flex items-center justify-center">
+                                                <i class="fas fa-user text-[#5A4033]"></i>
+                                            </div>
+                                            <div class="ml-4">
+                                                <div class="text-sm font-medium text-gray-900">Michael Chen</div>
+                                                <div class="text-sm text-gray-500">ID: 1002</div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap">
+                                        <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-yellow-100 text-yellow-800">C+</span>
+                                    </td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">85%</td>
+                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">B (83%)</td>
+                                    <td class="px-6 py-4 whitespace-nowrap">
+                                        <i class="fas fa-arrow-up text-green-500"></i>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
