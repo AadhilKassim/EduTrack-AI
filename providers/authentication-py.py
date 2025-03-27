@@ -155,3 +155,20 @@ class AuthenticationManager:
     def authenticate_institution_manager(self, email: str, password: str) -> Optional[str]:
         # Implementation similar to authenticate_student
         pass
+
+    def get_dashboard_url(self, user_type: str) -> str:
+        """
+        Get the dashboard URL based on user type.
+        
+        Args:
+            user_type (str): Type of user ('student', 'faculty', 'manager')
+        
+        Returns:
+            str: URL of the respective dashboard
+        """
+        dashboards = {
+            "student": "pages/dashboard.html",
+            "faculty": "pages/faculty.html",
+            "manager": "pages/institution.html"
+        }
+        return dashboards.get(user_type, "login/login-selection-html.html")

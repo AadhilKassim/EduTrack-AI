@@ -20,6 +20,7 @@
             transform-origin: 50% 50%;
         }
     </style>
+    <script src="../providers/dashboard-functions.js"></script>
 </head>
 <body class="flex h-screen bg-gray-100">
     <!-- Sidebar -->
@@ -88,7 +89,7 @@
                 <!-- GPA Tracker -->
                 <div class="bg-white rounded-xl shadow p-6">
                     <h3 class="font-medium text-[#5A4033] mb-4">GPA Tracker</h3>
-                    <div class="flex items-center justify-center">
+                    <div class="flex items-center justify-center relative">
                         <svg class="w-32 h-32" viewBox="0 0 36 36">
                             <path
                                 d="M18 2.0845
@@ -99,6 +100,7 @@
                                 stroke-width="3"
                             />
                             <path
+                                id="progress-circle"
                                 class="progress-ring__circle"
                                 d="M18 2.0845
                                 a 15.9155 15.9155 0 0 1 0 31.831
@@ -107,11 +109,11 @@
                                 stroke="#5A4033"
                                 stroke-width="3"
                                 stroke-dasharray="100, 100"
-                                stroke-dashoffset="25"
+                                stroke-dashoffset="100"
                             />
                         </svg>
                         <div class="absolute text-center">
-                            <span class="text-3xl font-bold text-[#5A4033]">3.75</span>
+                            <span id="gpa-value" class="text-3xl font-bold text-[#5A4033]">0.00</span>
                             <span class="block text-sm text-gray-500">Current GPA</span>
                         </div>
                     </div>
@@ -200,5 +202,9 @@
             </div>
         </div>
     </div>
+    <script>
+        // Example usage: Update the GPA Tracker with a dynamic value
+        updateGPATracker(8);
+    </script>
 </body>
 </html>

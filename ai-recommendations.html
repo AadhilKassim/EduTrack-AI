@@ -73,6 +73,20 @@
     <div class="flex-1 overflow-auto p-8">
         <h1 class="playfair text-3xl font-bold text-[#5A4033] mb-6">AI Recommendations</h1>
         <p class="text-gray-600">This page will display personalized AI recommendations for your academic progress.</p>
+        <div id="ai-recommendations" class="text-gray-600">
+            Loading personalized AI recommendations...
+        </div>
+        <script>
+            async function startBackend() {
+                try {
+                    await fetch("http://127.0.0.1:5000"); // Ping the backend to ensure it's running
+                } catch (error) {
+                    console.error("Backend is not running. Please start ai-recommendation.py.");
+                }
+            }
+            startBackend();
+        </script>
+        <script src="ai-outputhandler.js"></script>
     </div>
 </body>
 </html>
