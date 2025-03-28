@@ -82,8 +82,26 @@
     <script>
         document.getElementById("studentLoginForm").addEventListener("submit", function (e) {
             e.preventDefault();
-            // Simulate successful login and redirect
-            window.location.href = "../pages/dashboard.html";
+
+            const studentId = document.getElementById("studentId").value;
+
+            // Send Student ID to AI Recommendation API
+            fetch("http://127.0.0.1:5000/api/chatbot", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ student_id: studentId, query: "recommendations" })
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.response); // Display the response from the API
+                window.location.href = "../pages/dashboard.html"; // Redirect to dashboard
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                alert("Failed to retrieve recommendations. Please try again.");
+            });
         });
     </script>
 </body>

@@ -3,90 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduTrack AI - AI Recommendations</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        .playfair {
-            font-family: 'Playfair Display', serif;
-        }
-    </style>
+    <title>AI Recommendations</title>
+    <script src="ai-outputhandler.js" defer></script>
 </head>
-<body class="flex h-screen bg-gray-100">
-    <!-- Sidebar -->
-    <div class="w-64 bg-[#5A4033] text-white">
-        <div class="p-4 flex flex-col h-full">
-            <!-- Profile -->
-            <div class="flex items-center mb-8">
-                <div class="w-12 h-12 rounded-full bg-gray-300 mr-3 flex items-center justify-center">
-                    <i class="fas fa-user text-[#5A4033] text-xl"></i>
-                </div>
-                <div>
-                    <p class="font-medium">John Student</p>
-                    <p class="text-xs opacity-75">Student</p>
-                </div>
-            </div>
-
-            <!-- Navigation -->
-            <nav class="flex-1">
-                <ul class="space-y-2">
-                    <li>
-                        <a href="pages/dashboard.html" class="flex items-center p-2 rounded-lg hover:bg-white hover:bg-opacity-10">
-                            <i class="fas fa-tachometer-alt mr-3"></i>
-                            Dashboard
-                        </a>
-                    </li>
-                    <li>
-                        <a href="courses-grades.html" class="flex items-center p-2 rounded-lg hover:bg-white hover:bg-opacity-10">
-                            <i class="fas fa-book mr-3"></i>
-                            Courses & Grades
-                        </a>
-                    </li>
-                    <li>
-                        <a href="ai-recommendations.html" class="flex items-center p-2 rounded-lg bg-white bg-opacity-10">
-                            <i class="fas fa-robot mr-3"></i>
-                            AI Recommendations
-                        </a>
-                    </li>
-                    <li>
-                        <a href="attendance.html" class="flex items-center p-2 rounded-lg hover:bg-white hover:bg-opacity-10">
-                            <i class="fas fa-calendar-check mr-3"></i>
-                            Attendance
-                        </a>
-                    </li>
-                    <li>
-                        <a href="reports-insights.html" class="flex items-center p-2 rounded-lg hover:bg-white hover:bg-opacity-10">
-                            <i class="fas fa-chart-bar mr-3"></i>
-                            Reports & Insights
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+<body>
+    <h1>AI Recommendations</h1>
+    <div>
+        <h2>Recommendations</h2>
+        <p id="ai-recommendations">Loading...</p>
     </div>
-
-    <!-- Main Content -->
-    <div class="flex-1 overflow-auto p-8">
-        <h1 class="playfair text-3xl font-bold text-[#5A4033] mb-6">AI Recommendations</h1>
-        <p class="text-gray-600">This page will display personalized AI recommendations for your academic progress.</p>
-        <div id="ai-recommendations" class="text-gray-600">
-            Loading personalized AI recommendations...
-        </div>
-        <script>
-            async function startBackend() {
-                try {
-                    await fetch("http://127.0.0.1:5000"); // Ping the backend to ensure it's running
-                } catch (error) {
-                    console.error("Backend is not running. Please start ai-recommendation.py.");
-                }
-            }
-            startBackend();
-        </script>
-        <script src="ai-outputhandler.js"></script>
+    <div>
+        <h2>Student Data</h2>
+        <pre id="student-data">Loading...</pre>
     </div>
 </body>
 </html>

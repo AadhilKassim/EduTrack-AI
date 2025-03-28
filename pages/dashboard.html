@@ -124,16 +124,16 @@
                     <h3 class="font-medium text-[#5A4033] mb-4">Attendance</h3>
                     <div class="flex items-center">
                         <div class="mr-4">
-                            <span class="text-4xl font-bold text-[#5A4033]">95%</span>
+                            <span id="attendance-percentage" class="text-4xl font-bold text-[#5A4033]">95%</span>
                         </div>
                         <div>
                             <div class="flex items-center mb-1">
                                 <span class="w-3 h-3 bg-green-500 rounded-full mr-2"></span>
-                                <span class="text-sm">Present: 19</span>
+                                <span id="attendance-present" class="text-sm">Present: <span id="present-count">19</span></span>
                             </div>
                             <div class="flex items-center">
                                 <span class="w-3 h-3 bg-red-500 rounded-full mr-2"></span>
-                                <span class="text-sm">Absent: 1</span>
+                                <span id="attendance-absent" class="text-sm">Absent: <span id="absent-count">1</span></span>
                             </div>
                         </div>
                     </div>
@@ -205,6 +205,14 @@
     <script>
         // Example usage: Update the GPA Tracker with a dynamic value
         updateGPATracker(8);
+
+        function updateAttendance(present, absent) {
+            document.getElementById('present-count').textContent = present;
+            document.getElementById('absent-count').textContent = absent;
+        }
+
+        // Example usage: Update attendance dynamically
+        updateAttendance(22, 3);
     </script>
 </body>
 </html>
