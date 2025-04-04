@@ -5,7 +5,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load the refined dataset
-df = pd.read_csv("providers/prototype_student_data_v3.csv")
+df = pd.read_csv("providers/Randomized_ResearchInformation3.csv")
 
 def get_student(student_id):
     student = df[df["student_id"] == student_id]
