@@ -15,6 +15,10 @@ async function fetchAIRecommendations() {
             body: JSON.stringify({ student_id: studentId }),
         });
 
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
         const data = await response.json();
         const recommendations = data.response.recommendations;
         

@@ -11,7 +11,6 @@ function updateGPATracker(gpa) {
     // Update the displayed GPA value
     gpaValue.textContent = gpa.toFixed(2);
 }
-
 // Function to fetch and parse CSV data
 async function fetchCSVData(filePath) {
     const response = await fetch(filePath);
