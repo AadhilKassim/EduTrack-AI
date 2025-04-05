@@ -79,29 +79,24 @@
             <a href="pages/dashboard.html" class="text-[#5A4033] hover:underline">Back to Role Selection</a>
         </div>
     </div>
+    <script src="js/student-validation.js"></script>
     <script>
-        document.getElementById("studentLoginForm").addEventListener("submit", function (e) {
+        const form = document.getElementById("studentLoginForm");
+        
+        form.addEventListener("submit", function (e) {
             e.preventDefault();
-
-            const studentId = document.getElementById("studentId").value;
-
-            // Send Student ID to AI Recommendation API
-            fetch("http://127.0.0.1:5000/api/chatbot", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({ student_id: studentId, query: "recommendations" })
-            })
-            .then(response => response.json())
-            .then(data => {
-                alert(data.response); // Display the response from the API
-                window.location.href = "../pages/dashboard.html"; // Redirect to dashboard
-            })
-            .catch(error => {
-                console.error("Error:", error);
-                alert("Failed to retrieve recommendations. Please try again.");
-            });
+            const studentId = document.getElementById("studentId").value.trim().toUpperCase();
+            
+            if (!studentId.startsWith('STU')) {
+                alert("Please enter a valid student ID starting with 'STU'");
+                return;
+            }
+            
+            if (validateStudentId(studentId)) {
+                window.location.href = "../pages/dashboard.html";
+            } else {
+                alert("Invalid student ID. Please check your credentials.");
+            }
         });
     </script>
 </body>

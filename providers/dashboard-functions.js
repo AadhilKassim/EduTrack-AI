@@ -11,22 +11,46 @@ function updateGPATracker(gpa) {
     // Update the displayed GPA value
     gpaValue.textContent = gpa.toFixed(2);
 }
-
-/**
- * Updates the attendance section dynamically.
- * @param {number} present - Number of days present.
- * @param {number} absent - Number of days absent.
- */
-function updateAttendance(present, absent) {
-    const total = present + absent;
-    const percentage = ((present / total) * 100).toFixed(2);
-
-    document.getElementById('attendance-percentage').textContent = `${percentage}%`;
-    document.getElementById('attendance-present').textContent = `Present: ${present}`;
-    document.getElementById('attendance-absent').textContent = `Absent: ${absent}`;
+// Function to fetch and parse CSV data
+async function fetchCSVData(filePath) {
+    const response = await fetch(filePath);
+    const csvText = await response.text();
+    const rows = csvText.split("\n").map(row => row.split(","));
+    const headers = rows[0];
+    const data = rows.slice(1).map(row => {
+        const obj = {};
+        headers.forEach((header, index) => {
+            obj[header.trim()] = row[index]?.trim();
+        });
+        return obj;
+    });
+    return data;
 }
 
-// Example usage: Update the GPA Tracker with a dynamic value
-// updateGPATracker(9.6);
+// Function to display GPA and attendance details
+async function displayDashboardDetails() {
+    const data = await fetchCSVData("../providers/ResearchInformation3.csv");
+    const student = data.find(d => d.Name === "John Student"); // Replace with dynamic student name if needed
 
-// Example usage: updateAttendance(19, 1);
+    if (student) {
+        // Update GPA Tracker
+        const gpa = parseFloat(student.Overall);
+        updateGPATracker(gpa);
+
+        // Update Attendance
+        const attendanceElement = document.querySelector("#attendance-percentage");
+        if (attendanceElement) {
+            attendanceElement.textContent = student.Attendance;
+        }
+
+        // Update other metrics (e.g., AI Insights, Course Progress) as needed
+        // Example: Update AI Insights
+        const insightsElement = document.querySelector("#ai-insights");
+        if (insightsElement) {
+            insightsElement.textContent = `📚 You're excelling in ${student.Department}!`;
+        }
+    }
+}
+
+// Call the function to display details on page load
+document.addEventListener("DOMContentLoaded", displayDashboardDetails);

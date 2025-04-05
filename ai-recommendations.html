@@ -3,8 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Recommendations</title>
-    <script src="ai-outputhandler.js" defer></script>
+    <title>EduTrack AI - AI Recommendations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .playfair {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+    <script src="static/js/ai-outputhandler.js" defer></script>
 </head>
 <body>
     <h1>AI Recommendations</h1>
@@ -12,9 +23,28 @@
         <h2>Recommendations</h2>
         <p id="ai-recommendations">Loading...</p>
     </div>
-    <div>
-        <h2>Student Data</h2>
-        <pre id="student-data">Loading...</pre>
+
+    <!-- Main Content -->
+    <div class="flex-1 overflow-auto p-8">
+        <h1 class="playfair text-3xl font-bold text-[#5A4033] mb-6">AI Course Recommendations</h1>
+        <p class="text-gray-600 mb-4">Based on your academic profile and interests, here are your personalized course recommendations:</p>
+        <div id="ai-recommendations" class="text-gray-600">
+            <div class="flex items-center justify-center h-32">
+                <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-[#5A4033]"></div>
+                <span class="ml-3">Loading your recommendations...</span>
+            </div>
+        </div>
+        <script>
+            async function startBackend() {
+                try {
+                    await fetch("http://127.0.0.1:5000");
+                } catch (error) {
+                    console.error("Backend is not running. Please start ai-recommendation.py.");
+                }
+            }
+            startBackend();
+        </script>
+        <script src="ai-outputhandler.js"></script>
     </div>
 </body>
 </html>

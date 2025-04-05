@@ -1,0 +1,494 @@
+student_id,Department,Gender,HSC,SSC,Income,Hometown,Gaming,Attendance,Job,English,Semester,Last,Overall
+STU000001,Business Administration,Male,4.17,4.84,"Low (Below 15,000)",Village,Yes,80%-100%,No,3,6th,8.05,8.375
+STU000002,Business Administration,Female,4.92,5.0,"Upper middle (30,000-50,000)",City,Yes,80%-100%,No,3,7th,8.6675,8.6675
+STU000003,Business Administration,Male,5.0,4.83,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,4,3rd,10.0,9.3
+STU000004,Business Administration,Male,4.0,4.5,"High (Above 50,000)",City,No,80%-100%,No,5,4th,9.5,9.375
+STU000005,Business Administration,Female,2.19,3.17,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,3,4th,9.85,9.85
+STU000006,Computer Science and Engineering,Male,4.75,4.05,"Lower middle (15,000-30,000)",Village,Yes,Below 40%,No,4,2nd,2.5,2.5
+STU000007,Computer Science and Engineering,Male,4.42,5.0,"High (Above 50,000)",Village,No,60%-79%,No,2,2nd,2.6500000000000004,2.6500000000000004
+STU000008,Computer Science and Engineering,Male,4.5,4.81,"Upper middle (30,000-50,000)",City,No,80%-100%,No,4,11th,7.375,3.125
+STU000009,Computer Science and Engineering,Male,3.32,4.5,"Low (Below 15,000) ",City,Yes,Below 40%,No,3,5th,3.55,3.5999999999999996
+STU000010,Computer Science and Engineering,Female,3.33,4.95,"Lower middle (15,000-30,000) ",City,No,Below 40%,No,4,2nd,3.75,3.75
+STU000011,Computer Science and Engineering,Male,4.17,5.0,"Lower middle (15,000-30,000)",Village,Yes,Below 40%,No,4,2nd,3.9000000000000004,3.9000000000000004
+STU000012,Computer Science and Engineering,Male,3.58,4.56,"Upper middle (30,000-50,000)",Village,Yes,Below 40%,No,4,9th,3.9250000000000003,3.9250000000000003
+STU000013,Computer Science and Engineering,Male,4.5,4.75,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,2,8th,3.9250000000000003,3.9250000000000003
+STU000014,Computer Science and Engineering,Male,4.5,4.75,"Upper middle (30,000-50,000)",Village,No,60%-79%,No,2,8th,2.5,4.0
+STU000015,Computer Science and Engineering,Male,3.83,5.0,"Low (Below 15,000)",Village,No,Below 40%,No,4,2nd,4.050000000000001,4.050000000000001
+STU000016,Computer Science and Engineering,Male,4.33,4.64,"Lower middle (15,000-30,000) ",City,Yes,Below 40%,No,4,2nd,4.225,4.225
+STU000017,Computer Science and Engineering,Female,4.51,4.75,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,2,8th,4.575,4.275
+STU000018,Computer Science and Engineering,Male,4.5,4.75,"Lower middle (15,000-30,000)",Village,Yes,60%-79%,No,2,2nd,4.225,4.3
+STU000019,Computer Science and Engineering,Male,3.92,4.72,"High (Above 50,000)",Village,No,60%-79%,No,2,5th,3.325,4.375
+STU000020,Computer Science and Engineering,Male,3.92,5.0,"High (Above 50,000)",Village,Yes,60%-79%,No,2,2nd,4.375,4.375
+STU000021,Computer Science and Engineering,Male,4.08,5.0,"Low (Below 15,000)",Village,No,60%-79%,No,2,2nd,3.125,4.375
+STU000022,Computer Science and Engineering,Male,3.67,4.86,"Lower middle (15,000-30,000)",City,Yes,80%-100%,No,3,3rd,4.475,4.5
+STU000023,Computer Science and Engineering,Male,4.0,5.0,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,2,2nd,4.074999999999999,4.65
+STU000024,Computer Science and Engineering,Male,3.75,4.73,"Upper middle (30,000-50,000)",Village,No,60%-79%,No,4,2nd,4.699999999999999,4.699999999999999
+STU000025,Computer Science and Engineering,Male,3.5,5.0,"Upper middle (30,000-50,000)",City,Yes,60%-79%,No,4,5th,4.725,4.725
+STU000026,Computer Science and Engineering,Male,4.2,5.0,"Upper middle (30,000-50,000)",City,Yes,Below 40%,No,4,9th,3.625,4.75
+STU000027,Computer Science and Engineering,Female,4.58,4.94,"High (Above 50,000)",Village,Yes,Below 40%,No,4,5th,3.325,4.75
+STU000028,Computer Science and Engineering,Male,3.0,4.06,"Low (Below 15,000)",Village,Yes,60%-79%,No,4,2nd,4.8,4.8
+STU000029,Computer Science and Engineering,Male,4.17,5.0,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,3,2nd,5.15,4.925
+STU000030,Computer Science and Engineering,Male,4.42,5.0,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,2,11th,5.825,5.0
+STU000031,Computer Science and Engineering,Male,4.0,4.78,"Low (Below 15,000)",Village,Yes,60%-79%,No,4,8th,5.4,5.0
+STU000032,Computer Science and Engineering,Male,4.5,4.75,"Low (Below 15,000) ",Village,No,60%-79%,No,2,5th,3.75,5.05
+STU000033,Computer Science and Engineering,Male,4.5,4.75,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,2,8th,4.1,5.25
+STU000034,Computer Science and Engineering,Male,3.5,4.78,"High (Above 50,000)",Village,Yes,Below 40%,No,4,5th,3.325,5.25
+STU000035,Computer Science and Engineering,Male,3.82,5.0,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,4,3rd,6.25,5.25
+STU000036,Computer Science and Engineering,Male,4.5,5.0,"High (Above 50,000)",Village,Yes,40%-59%,Yes,4,10th,5.575,5.425
+STU000037,Computer Science and Engineering,Female,4.58,3.96,"Upper middle (30,000-50,000)",City,Yes,40%-59%,No,4,8th,5.2749999999999995,5.425
+STU000038,Computer Science and Engineering,Male,3.23,4.33,"Low (Below 15,000)",City,No,40%-59%,No,4,3rd,5.425,5.425
+STU000039,Computer Science and Engineering,Male,2.17,4.33,"Upper middle (30,000-50,000)",Village,Yes,40%-59%,No,4,3rd,5.2,5.425
+STU000040,Computer Science and Engineering,Male,3.67,4.28,"Upper middle (30,000-50,000)",City,Yes,60%-79%,No,4,5th,4.85,5.5
+STU000041,Computer Science and Engineering,Male,3.8,4.94,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,4,9th,5.0,5.550000000000001
+STU000042,Computer Science and Engineering,Male,3.25,4.94,"High (Above 50,000)",Village,No,40%-59%,No,4,9th,5.625,5.625
+STU000043,Computer Science and Engineering,Female,4.5,4.75,"High (Above 50,000)",Village,No,60%-79%,No,4,7th,5.625,5.625
+STU000044,Computer Science and Engineering,Male,4.0,4.72,"Upper middle (30,000-50,000)",Village,Yes,40%-59%,No,4,2nd,5.625,5.625
+STU000045,Computer Science and Engineering,Male,3.42,4.78,"Lower middle (15,000-30,000)",Village,Yes,40%-59%,No,4,2nd,5.625,5.625
+STU000046,Computer Science and Engineering,Male,4.0,5.0,"High (Above 50,000)",Village,Yes,60%-79%,No,3,2nd,5.775,5.699999999999999
+STU000047,Computer Science and Engineering,Male,3.33,4.19,"High (Above 50,000)",Village,No,40%-59%,No,4,9th,5.75,5.75
+STU000048,Computer Science and Engineering,Male,4.25,4.38,"High (Above 50,000) ",City,No,60%-79%,No,4,7th,5.625,5.75
+STU000049,Computer Science and Engineering,Male,3.75,5.0,"Lower middle (15,000-30,000)",City,Yes,40%-59%,No,3,2nd,5.775,5.775
+STU000050,Computer Science and Engineering,Female,3.58,5.0,"Lower middle (15,000-30,000)",Village,Yes,40%-59%,No,4,2nd,5.775,5.775
+STU000051,Computer Science and Engineering,Male,4.25,5.0,"High (Above 50,000)",Village,No,40%-59%,No,4,2nd,5.775,5.775
+STU000052,Computer Science and Engineering,Female,4.5,4.75,"Upper middle (30,000-50,000)",Village,No,60%-79%,No,3,5th,6.1,5.825
+STU000053,Computer Science and Engineering,Female,3.83,4.94,"High (Above 50,000)",Village,No,40%-59%,No,4,5th,5.825,5.825
+STU000054,Computer Science and Engineering,Male,3.08,4.22,"Lower middle (15,000-30,000)",Village,No,40%-59%,No,4,3rd,5.825,5.825
+STU000055,Computer Science and Engineering,Male,3.67,4.91,"Upper middle (30,000-50,000)",City,No,40%-59%,No,4,3rd,5.825,5.825
+STU000056,Computer Science and Engineering,Male,5.0,4.75,"High (Above 50,000)",City,No,40%-59%,Yes,4,9th,5.9750000000000005,5.875
+STU000057,Computer Science and Engineering,Male,4.56,4.82,"Lower middle (15,000-30,000)",Village,Yes,40%-59%,No,4,8th,5.875,5.875
+STU000058,Computer Science and Engineering,Male,5.0,4.72,"High (Above 50,000)",Village,Yes,40%-59%,No,5,6th,5.875,5.875
+STU000059,Computer Science and Engineering,Male,3.92,5.0,"Lower middle (15,000-30,000)",Village,Yes,40%-59%,No,4,2nd,5.949999999999999,5.949999999999999
+STU000060,Computer Science and Engineering,Male,4.42,4.32,"Upper middle (30,000-50,000)",Village,No,40%-59%,No,4,2nd,5.949999999999999,5.949999999999999
+STU000061,Computer Science and Engineering,Female,3.42,4.14,"High (Above 50,000)",City,No,40%-59%,No,4,2nd,5.949999999999999,5.949999999999999
+STU000062,Computer Science and Engineering,Female,4.0,5.0,"High (Above 50,000)",Village,No,40%-59%,No,4,2nd,5.949999999999999,5.949999999999999
+STU000063,Computer Science and Engineering,Female,4.5,4.75,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,2,10th,6.025,6.025
+STU000064,Computer Science and Engineering,Male,4.17,4.82,"Lower middle (15,000-30,000)",Village,No,40%-59%,No,4,2nd,6.1,6.1
+STU000065,Computer Science and Engineering,Male,4.0,5.0,"Lower middle (15,000-30,000)",City,No,40%-59%,No,3,2nd,6.1,6.1
+STU000066,Computer Science and Engineering,Male,4.86,5.0,"Lower middle (15,000-30,000)",City,Yes,80%-100%,Yes,3,11th,5.875,6.125
+STU000067,Computer Science and Engineering,Male,4.5,4.75,"Lower middle (15,000-30,000)",Village,Yes,60%-79%,No,3,3rd,5.625,6.125
+STU000068,Computer Science and Engineering,Male,3.63,4.91,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,4,3rd,6.45,6.175000000000001
+STU000069,Computer Science and Engineering,Male,2.25,4.28,"Low (Below 15,000)",City,No,80%-100%,Yes,5,11th,7.5,6.25
+STU000070,Computer Science and Engineering,Male,2.92,4.75,"Lower middle (15,000-30,000)",City,No,60%-79%,Yes,4,8th,6.825,6.25
+STU000071,Computer Science and Engineering,Male,4.33,5.0,"High (Above 50,000) ",Village,No,40%-59%,No,4,2nd,6.25,6.25
+STU000072,Computer Science and Engineering,Male,4.5,4.75,"Lower middle (15,000-30,000)",Village,Yes,60%-79%,No,3,10th,7.075,6.324999999999999
+STU000073,Computer Science and Engineering,Male,5.0,4.78,"High (Above 50,000)",City,No,80%-100%,No,3,4th,5.6000000000000005,6.375
+STU000074,Computer Science and Engineering,Female,3.16,4.19,"Upper middle (30,000-50,000)",Village,No,60%-79%,Yes,4,5th,6.875,6.375
+STU000075,Computer Science and Engineering,Male,4.67,5.0,"High (Above 50,000)",City,No,40%-59%,No,4,2nd,6.4,6.4
+STU000076,Computer Science and Engineering,Male,3.67,4.82,"Lower middle (15,000-30,000)",Village,No,40%-59%,No,4,2nd,6.4,6.4
+STU000077,Computer Science and Engineering,Male,3.75,4.11,"Lower middle (15,000-30,000)",Village,Yes,40%-59%,No,4,2nd,6.4,6.4
+STU000078,Computer Science and Engineering,Male,4.5,3.61,"Low (Below 15,000)",Village,No,80%-100%,No,4,2nd,7.5,6.45
+STU000079,Computer Science and Engineering,Male,2.94,4.39,"High (Above 50,000) ",Village,Yes,40%-59%,No,4,2nd,6.6000000000000005,6.6000000000000005
+STU000080,Computer Science and Engineering,Male,3.59,5.0,"Low (Below 15,000)",Village,Yes,40%-59%,No,4,2nd,6.725,6.725
+STU000081,Computer Science and Engineering,Male,3.0,4.33,"High (Above 50,000)",Village,No,40%-59%,No,4,2nd,6.725,6.725
+STU000082,Computer Science and Engineering,Male,3.67,5.0,"Lower middle (15,000-30,000) ",City,Yes,40%-59%,No,4,2nd,6.725,6.725
+STU000083,Computer Science and Engineering,Male,4.08,5.0,"High (Above 50,000) ",City,No,40%-59%,No,4,2nd,6.725,6.725
+STU000084,Computer Science and Engineering,Male,4.33,5.0,"Low (Below 15,000)",Village,Yes,60%-79%,No,4,10th,7.199999999999999,6.75
+STU000085,Computer Science and Engineering,Male,5.0,5.0,"Lower middle (15,000-30,000)",City,No,60%-79%,Yes,4,9th,7.075,6.75
+STU000086,Computer Science and Engineering,Male,3.92,5.0,"Upper middle (30,000-50,000)",City,Yes,60%-79%,No,4,3rd,7.075,6.75
+STU000087,Computer Science and Engineering,Female,5.0,5.0,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,Yes,3,4th,6.025,6.875
+STU000088,Computer Science and Engineering,Male,5.0,5.0,"Lower middle (15,000-30,000)",City,No,80%-100%,Yes,3,4th,5.875,6.875
+STU000089,Computer Science and Engineering,Male,3.92,5.0,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,3,10th,7.2250000000000005,6.875
+STU000090,Computer Science and Engineering,Male,4.3,4.75,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,4,10th,7.199999999999999,6.875
+STU000091,Computer Science and Engineering,Female,4.0,5.0,"High (Above 50,000) ",City,No,60%-79%,No,4,10th,6.875,6.875
+STU000092,Computer Science and Engineering,Male,4.0,4.13,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,4,10th,7.05,6.875
+STU000093,Computer Science and Engineering,Male,4.95,5.0,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,4,10th,7.199999999999999,6.875
+STU000094,Computer Science and Engineering,Male,4.44,4.38,"Upper middle (30,000-50,000)",City,No,60%-79%,No,4,9th,7.025,6.875
+STU000095,Computer Science and Engineering,Male,3.75,5.0,"Upper middle (30,000-50,000)",City,No,60%-79%,No,4,8th,7.1,6.875
+STU000096,Computer Science and Engineering,Male,3.58,4.61,"Low (Below 15,000)",City,No,60%-79%,No,4,8th,7.025,6.875
+STU000097,Computer Science and Engineering,Female,4.0,4.89,"High (Above 50,000)",City,Yes,60%-79%,No,4,8th,6.975,6.875
+STU000098,Computer Science and Engineering,Female,4.67,5.0,"High (Above 50,000)",City,Yes,60%-79%,No,4,8th,7.075,6.875
+STU000099,Computer Science and Engineering,Female,4.5,4.5,"Upper middle (30,000-50,000)",City,Yes,60%-79%,Yes,4,8th,6.8999999999999995,6.875
+STU000100,Computer Science and Engineering,Male,4.25,4.94,"Low (Below 15,000) ",Village,No,60%-79%,No,4,8th,7.1,6.875
+STU000101,Computer Science and Engineering,Male,4.0,4.5,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,4,7th,6.875,6.875
+STU000102,Computer Science and Engineering,Female,3.25,4.17,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,4,6th,7.199999999999999,6.875
+STU000103,Computer Science and Engineering,Male,2.67,4.11,"Upper middle (30,000-50,000)",Village,No,60%-79%,Yes,4,6th,6.875,6.875
+STU000104,Computer Science and Engineering,Male,4.42,4.44,"Lower middle (15,000-30,000)  ",Village,No,60%-79%,No,4,6th,7.0,6.875
+STU000105,Computer Science and Engineering,Male,4.75,5.0,"Low (Below 15,000) ",Village,No,60%-79%,No,4,5th,7.199999999999999,6.875
+STU000106,Computer Science and Engineering,Male,3.75,4.78,"Upper middle (30,000-50,000)",City,Yes,60%-79%,No,4,5th,6.875,6.875
+STU000107,Computer Science and Engineering,Male,3.5,5.0,"High (Above 50,000)",Village,Yes,60%-79%,No,4,5th,6.925,6.875
+STU000108,Computer Science and Engineering,Female,3.33,4.59,"High (Above 50,000)",City,Yes,60%-79%,No,4,3rd,6.875,6.875
+STU000109,Computer Science and Engineering,Male,4.0,4.89,"High (Above 50,000)",City,Yes,60%-79%,No,4,3rd,6.875,6.875
+STU000110,Computer Science and Engineering,Male,3.67,4.77,"High (Above 50,000)",City,No,60%-79%,No,4,3rd,7.075,6.875
+STU000111,Computer Science and Engineering,Male,4.25,5.0,"Upper middle (30,000-50,000)",Village,No,60%-79%,No,4,2nd,6.875,6.875
+STU000112,Computer Science and Engineering,Female,4.17,5.0,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,4,2nd,6.875,6.875
+STU000113,Computer Science and Engineering,Female,3.67,4.73,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,4,2nd,6.875,6.875
+STU000114,Computer Science and Engineering,Female,4.08,5.0,"High (Above 50,000) ",Village,Yes,60%-79%,No,4,2nd,6.875,6.875
+STU000115,Computer Science and Engineering,Male,4.5,5.0,"Upper middle (30,000-50,000)",City,No,60%-79%,No,1,11th,5.675,6.975
+STU000116,Computer Science and Engineering,Male,3.5,4.83,"Lower middle (15,000-30,000)",Village,Yes,60%-79%,No,4,2nd,7.025,7.025
+STU000117,Computer Science and Engineering,Male,3.25,4.36,"Low (Below 15,000)",Village,No,60%-79%,No,4,2nd,7.025,7.025
+STU000118,Computer Science and Engineering,Female,3.34,4.69,"Lower middle (15,000-30,000) ",Village,Yes,60%-79%,No,4,10th,7.4,7.1
+STU000119,Computer Science and Engineering,Female,4.08,5.0,"Upper middle (30,000-50,000)",Village,No,60%-79%,No,4,9th,7.4750000000000005,7.1
+STU000120,Computer Science and Engineering,Male,4.08,5.0,"High (Above 50,000)",Village,No,60%-79%,No,4,6th,7.35,7.1
+STU000121,Computer Science and Engineering,Male,3.42,4.33,"Upper middle (30,000-50,000)",City,No,60%-79%,No,4,6th,7.35,7.1
+STU000122,Computer Science and Engineering,Female,4.5,4.75,"Lower middle (15,000-30,000)",Village,Yes,60%-79%,No,2,8th,3.8,7.115
+STU000123,Computer Science and Engineering,Female,4.42,4.23,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,4,2nd,7.1499999999999995,7.1499999999999995
+STU000124,Computer Science and Engineering,Female,3.5,4.73,"Lower middle (15,000-30,000)",City,No,60%-79%,No,4,2nd,7.199999999999999,7.199999999999999
+STU000125,Computer Science and Engineering,Male,3.58,4.68,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,4,2nd,7.199999999999999,7.199999999999999
+STU000126,Computer Science and Engineering,Male,4.67,5.0,"Lower middle (15,000-30,000)",City,No,60%-79%,No,3,2nd,7.199999999999999,7.199999999999999
+STU000127,Computer Science and Engineering,Male,4.57,4.95,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,3,2nd,7.199999999999999,7.199999999999999
+STU000128,Computer Science and Engineering,Female,4.17,5.0,"Lower middle (15,000-30,000)",City,No,60%-79%,No,4,2nd,7.199999999999999,7.199999999999999
+STU000129,Computer Science and Engineering,Female,3.75,4.69,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,4,10th,7.2250000000000005,7.2250000000000005
+STU000130,Computer Science and Engineering,Male,4.25,5.0,"Upper middle (30,000-50,000)",Village,Yes,60%-79%,No,4,9th,7.275,7.2250000000000005
+STU000131,Computer Science and Engineering,Female,4.17,4.61,"Lower middle (15,000-30,000)",City,No,60%-79%,No,3,8th,7.2250000000000005,7.2250000000000005
+STU000132,Computer Science and Engineering,Female,4.67,5.0,"Lower middle (15,000-30,000)",Village,Yes,60%-79%,No,4,8th,7.325,7.2250000000000005
+STU000133,Computer Science and Engineering,Female,3.83,5.0,"Lower middle (15,000-30,000)",City,No,60%-79%,No,3,8th,7.2250000000000005,7.2250000000000005
+STU000134,Computer Science and Engineering,Male,4.08,4.78,"High (Above 50,000)",Village,No,60%-79%,No,4,7th,7.3,7.2250000000000005
+STU000135,Computer Science and Engineering,Male,3.58,4.88,"High (Above 50,000)",Village,No,60%-79%,No,4,7th,7.3,7.2250000000000005
+STU000136,Computer Science and Engineering,Male,4.0,4.7,"Low (Below 15,000)",Village,Yes,60%-79%,No,3,11th,6.15,7.25
+STU000137,Computer Science and Engineering,Male,4.58,4.0,"High (Above 50,000)",Village,Yes,40%-59%,No,4,10th,6.65,7.25
+STU000138,Computer Science and Engineering,Male,4.1,3.75,"Lower middle (15,000-30,000)",City,Yes,40%-59%,No,4,9th,6.425,7.25
+STU000139,Computer Science and Engineering,Male,3.33,4.61,"High (Above 50,000) ",Village,Yes,40%-59%,No,4,9th,6.1,7.25
+STU000140,Computer Science and Engineering,Male,3.67,3.06,"High (Above 50,000)",Village,Yes,40%-59%,No,4,8th,6.375,7.25
+STU000141,Computer Science and Engineering,Male,4.17,4.61,"Upper middle (30,000-50,000)",City,No,40%-59%,No,4,8th,6.6000000000000005,7.25
+STU000142,Computer Science and Engineering,Female,3.83,5.0,"Lower middle (15,000-30,000)",Village,Yes,40%-59%,No,4,8th,6.5,7.25
+STU000143,Computer Science and Engineering,Male,4.67,4.75,"High (Above 50,000) ",Village,No,40%-59%,No,4,7th,6.5,7.25
+STU000144,Computer Science and Engineering,Male,4.5,4.28,"Lower middle (15,000-30,000)",Village,Yes,40%-59%,No,4,7th,6.5,7.25
+STU000145,Computer Science and Engineering,Male,4.33,5.0,"High (Above 50,000)",City,No,40%-59%,No,4,6th,6.25,7.25
+STU000146,Computer Science and Engineering,Male,3.17,4.67,"High (Above 50,000)  ",Village,Yes,40%-59%,No,4,6th,6.025,7.25
+STU000147,Computer Science and Engineering,Female,4.5,4.56,"Upper middle (30,000-50,000)",City,No,40%-59%,No,4,6th,6.25,7.25
+STU000148,Computer Science and Engineering,Female,3.76,4.0,"High (Above 50,000)",Village,No,40%-59%,No,4,6th,6.4,7.25
+STU000149,Computer Science and Engineering,Male,2.59,4.88,"High (Above 50,000) ",City,No,40%-59%,No,4,6th,6.375,7.25
+STU000150,Computer Science and Engineering,Male,3.33,3.78,"Lower middle (15,000-30,000)",Village,No,40%-59%,No,4,6th,6.725,7.25
+STU000151,Computer Science and Engineering,Female,4.5,5.0,"Lower middle (15,000-30,000)",Village,No,40%-59%,No,4,5th,6.675,7.25
+STU000152,Computer Science and Engineering,Male,4.17,4.61,"Lower middle (15,000-30,000)",Village,No,40%-59%,No,4,5th,6.25,7.25
+STU000153,Computer Science and Engineering,Female,4.42,5.0,"Lower middle (15,000-30,000)",City,Yes,40%-59%,No,3,3rd,6.675,7.25
+STU000154,Computer Science and Engineering,Male,3.85,5.0,"Lower middle (15,000-30,000)",City,Yes,40%-59%,No,4,3rd,6.05,7.25
+STU000155,Computer Science and Engineering,Male,3.92,5.0,"High (Above 50,000)",Village,Yes,60%-79%,No,4,2nd,7.3,7.3
+STU000156,Computer Science and Engineering,Female,4.0,5.0,"High (Above 50,000) ",Village,Yes,40%-59%,No,4,10th,6.05,7.35
+STU000157,Computer Science and Engineering,Male,3.33,4.89,"Low (Below 15,000)",Village,No,60%-79%,No,4,2nd,7.35,7.35
+STU000158,Computer Science and Engineering,Male,3.92,4.73,"Lower middle (15,000-30,000)",Village,Yes,60%-79%,No,4,2nd,7.35,7.35
+STU000159,Computer Science and Engineering,Female,3.42,4.68,"High (Above 50,000)  ",Village,Yes,60%-79%,No,4,2nd,7.35,7.35
+STU000160,Computer Science and Engineering,Male,4.5,4.75,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,4,8th,6.2,7.45
+STU000161,Computer Science and Engineering,Female,4.5,5.0,"High (Above 50,000)",City,Yes,80%-100%,No,3,11th,8.625,7.5
+STU000162,Computer Science and Engineering,Male,5.0,5.0,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,4,2nd,7.5,7.5
+STU000163,Computer Science and Engineering,Male,5.0,5.0,"Upper middle (30,000-50,000)",City,Yes,60%-79%,No,4,4th,6.125,7.5
+STU000164,Computer Science and Engineering,Female,5.0,5.0,"Upper middle (30,000-50,000)",City,Yes,80%-100%,No,3,4th,8.05,7.5
+STU000165,Computer Science and Engineering,Female,4.5,4.75,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,4,10th,7.925,7.5
+STU000166,Computer Science and Engineering,Male,3.08,4.68,"High (Above 50,000) ",Village,Yes,60%-79%,No,4,2nd,7.5,7.5
+STU000167,Computer Science and Engineering,Female,3.92,5.0,"High (Above 50,000) ",City,No,60%-79%,No,4,2nd,7.5,7.5
+STU000168,Computer Science and Engineering,Male,3.67,4.68,"High (Above 50,000) ",City,Yes,60%-79%,No,4,2nd,7.5,7.5
+STU000169,Computer Science and Engineering,Female,3.92,5.0,"Upper middle (30,000-50,000)",City,Yes,60%-79%,No,4,2nd,7.5,7.5
+STU000170,Computer Science and Engineering,Female,3.53,5.0,"Lower middle (15,000-30,000) ",City,Yes,60%-79%,No,4,2nd,7.5,7.5
+STU000171,Computer Science and Engineering,Male,3.83,4.73,"High (Above 50,000) ",Village,Yes,40%-59%,No,5,2nd,7.65,7.65
+STU000172,Computer Science and Engineering,Female,2.93,4.71,"Upper middle (30,000-50,000)",Village,No,40%-59%,No,3,2nd,7.65,7.65
+STU000173,Computer Science and Engineering,Male,3.5,5.0,"High (Above 50,000)",City,No,40%-59%,No,3,2nd,7.65,7.65
+STU000174,Computer Science and Engineering,Male,5.0,5.0,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,3,4th,7.35,7.675
+STU000175,Computer Science and Engineering,Male,4.0,4.92,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,3,11th,7.5,7.7
+STU000176,Computer Science and Engineering,Male,3.92,5.0,"Lower middle (15,000-30,000)",Village,Yes,60%-79%,No,4,10th,8.225,7.7
+STU000177,Computer Science and Engineering,Male,3.6,4.94,"Upper middle (30,000-50,000)",Village,No,60%-79%,No,4,10th,8.125,7.7
+STU000178,Computer Science and Engineering,Male,3.83,4.75,"Upper middle (30,000-50,000)",Village,Yes,60%-79%,No,4,9th,8.125,7.7
+STU000179,Computer Science and Engineering,Female,3.51,3.19,"Low (Below 15,000)",Village,Yes,60%-79%,No,3,9th,8.125,7.7
+STU000180,Computer Science and Engineering,Male,4.44,5.0,"Upper middle (30,000-50,000)",City,Yes,60%-79%,Yes,2,8th,8.125,7.7
+STU000181,Computer Science and Engineering,Female,3.92,5.0,"Upper middle (30,000-50,000)",Village,Yes,60%-79%,No,3,8th,8.2,7.7
+STU000182,Computer Science and Engineering,Male,4.5,5.0,"Lower middle (15,000-30,000)",City,No,60%-79%,No,4,8th,8.25,7.7
+STU000183,Computer Science and Engineering,Male,4.5,5.0,"High (Above 50,000)",City,Yes,60%-79%,Yes,2,8th,8.149999999999999,7.7
+STU000184,Computer Science and Engineering,Male,3.42,4.0,"Low (Below 15,000) ",Village,No,60%-79%,Yes,2,6th,8.25,7.7
+STU000185,Computer Science and Engineering,Female,3.86,5.0,"High (Above 50,000)",Village,No,60%-79%,No,3,6th,8.125,7.7
+STU000186,Computer Science and Engineering,Male,5.0,5.0,"Low (Below 15,000)",Village,No,60%-79%,No,3,3rd,8.125,7.7
+STU000187,Computer Science and Engineering,Male,4.08,5.0,"Low (Below 15,000)",Village,Yes,80%-100%,No,3,10th,6.825,7.725
+STU000188,Computer Science and Engineering,Male,4.0,4.33,"Low (Below 15,000)",Village,Yes,80%-100%,No,1,7th,6.725,7.75
+STU000189,Computer Science and Engineering,Male,4.83,5.0,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,3,7th,7.075,7.75
+STU000190,Computer Science and Engineering,Male,5.0,5.0,"Low (Below 15,000)",Village,No,80%-100%,No,3,4th,7.7749999999999995,7.7749999999999995
+STU000191,Computer Science and Engineering,Male,3.42,4.63,"Low (Below 15,000)",Village,No,80%-100%,No,5,2nd,7.824999999999999,7.824999999999999
+STU000192,Computer Science and Engineering,Male,4.33,4.68,"High (Above 50,000)",City,No,80%-100%,No,3,2nd,7.824999999999999,7.824999999999999
+STU000193,Computer Science and Engineering,Female,4.0,5.0,"Lower middle (15,000-30,000)",City,No,80%-100%,No,3,2nd,7.824999999999999,7.824999999999999
+STU000194,Computer Science and Engineering,Male,3.08,4.06,"Upper middle (30,000-50,000)",Village,No,80%-100%,No,4,2nd,7.824999999999999,7.824999999999999
+STU000195,Computer Science and Engineering,Male,3.92,5.0,"Low (Below 15,000)",Village,Yes,60%-79%,No,3,9th,8.35,7.875
+STU000196,Computer Science and Engineering,Male,4.44,5.0,"Low (Below 15,000)",City,Yes,60%-79%,No,4,9th,8.25,7.875
+STU000197,Computer Science and Engineering,Female,3.92,5.0,"High (Above 50,000)",City,No,60%-79%,No,3,8th,8.35,7.875
+STU000198,Computer Science and Engineering,Male,3.42,4.17,"High (Above 50,000) ",City,No,60%-79%,No,3,7th,8.325,7.875
+STU000199,Computer Science and Engineering,Female,4.58,5.0,"High (Above 50,000) ",City,Yes,60%-79%,No,3,7th,8.325,7.875
+STU000200,Computer Science and Engineering,Female,3.83,5.0,"High (Above 50,000) ",Village,Yes,60%-79%,No,3,7th,8.325,7.875
+STU000201,Computer Science and Engineering,Female,4.5,5.0,"Upper middle (30,000-50,000)",City,No,60%-79%,No,4,5th,8.25,7.875
+STU000202,Computer Science and Engineering,Male,4.75,5.0,"Upper middle (30,000-50,000)",Village,Yes,80%-100%,No,3,2nd,7.9,7.9
+STU000203,Computer Science and Engineering,Male,4.19,4.36,"Lower middle (15,000-30,000)",City,No,60%-79%,No,3,2nd,7.975,7.975
+STU000204,Computer Science and Engineering,Male,3.5,4.73,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,4,2nd,7.975,7.975
+STU000205,Computer Science and Engineering,Male,3.38,5.0,"Lower middle (15,000-30,000)",City,No,60%-79%,No,3,2nd,7.975,7.975
+STU000206,Computer Science and Engineering,Male,4.0,5.0,"Upper middle (30,000-50,000)",Village,Yes,60%-79%,Yes,4,2nd,7.975,7.975
+STU000207,Computer Science and Engineering,Male,3.8,4.56,"Upper middle (30,000-50,000)",City,No,60%-79%,No,3,2nd,8.025,8.025
+STU000208,Computer Science and Engineering,Male,4.0,4.88,"Upper middle (30,000-50,000)",Village,No,80%-100%,No,3,8th,8.175,8.05
+STU000209,Computer Science and Engineering,Male,4.2,5.0,"Lower middle (15,000-30,000)",City,No,80%-100%,Yes,4,11th,7.55,8.125
+STU000210,Computer Science and Engineering,Male,3.67,5.0,"Low (Below 15,000)",City,No,80%-100%,No,3,10th,7.725,8.125
+STU000211,Computer Science and Engineering,Male,3.5,4.88,"Low (Below 15,000)",Village,No,80%-100%,No,4,10th,7.75,8.125
+STU000212,Computer Science and Engineering,Male,3.5,4.56,"Low (Below 15,000)",Village,Yes,60%-79%,No,5,10th,7.5249999999999995,8.125
+STU000213,Computer Science and Engineering,Male,4.0,4.88,"Upper middle (30,000-50,000)",City,Yes,40%-59%,Yes,4,8th,7.7,8.125
+STU000214,Computer Science and Engineering,Male,3.93,5.0,"Lower middle (15,000-30,000)",City,No,40%-59%,No,5,8th,7.6,8.125
+STU000215,Computer Science and Engineering,Male,4.08,5.0,"Lower middle (15,000-30,000)",City,No,40%-59%,No,4,8th,7.6,8.125
+STU000216,Computer Science and Engineering,Male,4.33,4.81,"Upper middle (30,000-50,000)",Village,No,60%-79%,No,3,8th,8.05,8.125
+STU000217,Computer Science and Engineering,Male,4.25,5.0,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,4,8th,7.7749999999999995,8.125
+STU000218,Computer Science and Engineering,Male,4.1,5.0,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,5,8th,7.75,8.125
+STU000219,Computer Science and Engineering,Female,3.87,4.94,"Upper middle (30,000-50,000)",City,No,40%-59%,No,5,7th,7.7,8.125
+STU000220,Computer Science and Engineering,Female,4.58,5.0,"Upper middle (30,000-50,000)",City,Yes,40%-59%,No,4,6th,7.6,8.125
+STU000221,Computer Science and Engineering,Male,3.83,5.0,"High (Above 50,000)",Village,Yes,60%-79%,No,4,5th,7.5,8.125
+STU000222,Computer Science and Engineering,Male,4.5,4.28,"High (Above 50,000)",City,Yes,40%-59%,No,3,5th,7.625,8.125
+STU000223,Computer Science and Engineering,Female,4.0,5.0,"Upper middle (30,000-50,000)",Village,No,40%-59%,No,5,5th,7.7,8.125
+STU000224,Computer Science and Engineering,Female,4.0,5.0,"Low (Below 15,000) ",Village,Yes,40%-59%,No,5,5th,7.7,8.125
+STU000225,Computer Science and Engineering,Female,3.83,5.0,"Upper middle (30,000-50,000)",Village,No,40%-59%,No,4,3rd,7.65,8.125
+STU000226,Computer Science and Engineering,Male,3.67,5.0,"High (Above 50,000)",City,Yes,60%-79%,No,4,3rd,7.5,8.125
+STU000227,Computer Science and Engineering,Female,3.92,4.18,"Upper middle (30,000-50,000)",City,Yes,40%-59%,No,3,3rd,7.7,8.125
+STU000228,Computer Science and Engineering,Male,3.5,4.81,"Low (Below 15,000)",Village,Yes,60%-79%,No,3,2nd,8.125,8.125
+STU000229,Computer Science and Engineering,Male,3.07,4.85,"Low (Below 15,000)",Village,No,60%-79%,No,3,2nd,8.125,8.125
+STU000230,Computer Science and Engineering,Male,3.92,5.0,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,3,2nd,8.125,8.125
+STU000231,Computer Science and Engineering,Male,4.08,5.0,"Low (Below 15,000)",Village,No,60%-79%,No,4,2nd,8.125,8.125
+STU000232,Computer Science and Engineering,Male,3.83,5.0,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,3,2nd,8.125,8.125
+STU000233,Computer Science and Engineering,Male,3.58,4.83,"High (Above 50,000)",Village,Yes,60%-79%,No,3,2nd,8.125,8.125
+STU000234,Computer Science and Engineering,Male,3.92,5.0,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,3,2nd,8.125,8.125
+STU000235,Computer Science and Engineering,Male,4.25,5.0,"Low (Below 15,000) ",Village,Yes,60%-79%,No,2,2nd,8.125,8.125
+STU000236,Computer Science and Engineering,Male,4.42,4.86,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,4,2nd,8.125,8.125
+STU000237,Computer Science and Engineering,Male,4.5,4.86,"Upper middle (30,000-50,000)",Village,No,60%-79%,No,3,2nd,8.125,8.125
+STU000238,Computer Science and Engineering,Female,3.75,4.59,"Upper middle (30,000-50,000)",Village,No,60%-79%,No,2,2nd,8.125,8.125
+STU000239,Computer Science and Engineering,Female,4.5,4.75,"Upper middle (30,000-50,000)",Village,Yes,80%-100%,No,4,8th,7.7749999999999995,8.149999999999999
+STU000240,Computer Science and Engineering,Male,5.0,4.67,"Low (Below 15,000)",Village,No,80%-100%,No,3,3rd,8.175,8.175
+STU000241,Computer Science and Engineering,Male,4.0,5.0,"Upper middle (30,000-50,000)",City,No,60%-79%,No,3,10th,8.675,8.175
+STU000242,Computer Science and Engineering,Male,4.3,5.0,"Upper middle (30,000-50,000)",City,No,60%-79%,No,3,10th,8.6,8.175
+STU000243,Computer Science and Engineering,Male,4.25,5.0,"High (Above 50,000) ",City,No,60%-79%,Yes,2,9th,8.575000000000001,8.175
+STU000244,Computer Science and Engineering,Male,4.25,4.61,"High (Above 50,000)",City,Yes,60%-79%,No,3,8th,8.7,8.175
+STU000245,Computer Science and Engineering,Female,4.25,5.0,"Lower middle (15,000-30,000)",Village,Yes,60%-79%,No,4,8th,8.575000000000001,8.175
+STU000246,Computer Science and Engineering,Female,3.14,4.63,"High (Above 50,000) ",Village,Yes,60%-79%,No,4,7th,8.675,8.175
+STU000247,Computer Science and Engineering,Female,4.5,4.75,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,3,10th,8.325,8.2
+STU000248,Computer Science and Engineering,Male,3.67,4.78,"Upper middle (30,000-50,000)",Village,Yes,60%-79%,No,3,2nd,8.25,8.25
+STU000249,Computer Science and Engineering,Male,3.83,5.0,"Upper middle (30,000-50,000)",Village,Yes,60%-79%,No,2,2nd,8.25,8.25
+STU000250,Computer Science and Engineering,Male,4.58,5.0,"High (Above 50,000)",City,Yes,60%-79%,No,3,2nd,8.275,8.275
+STU000251,Computer Science and Engineering,Female,4.75,5.0,"High (Above 50,000)",City,Yes,60%-79%,No,3,2nd,8.275,8.275
+STU000252,Computer Science and Engineering,Female,4.17,5.0,"Lower middle (15,000-30,000)",City,No,60%-79%,No,3,2nd,8.275,8.275
+STU000253,Computer Science and Engineering,Female,3.67,4.56,"High (Above 50,000)",City,Yes,60%-79%,No,3,2nd,8.275,8.275
+STU000254,Computer Science and Engineering,Male,4.5,4.75,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,3,8th,8.299999999999999,8.299999999999999
+STU000255,Computer Science and Engineering,Male,4.08,4.17,"High (Above 50,000) ",Village,Yes,60%-79%,No,3,2nd,8.299999999999999,8.299999999999999
+STU000256,Computer Science and Engineering,Male,4.01,4.33,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,Yes,2,4th,6.775,8.325
+STU000257,Computer Science and Engineering,Female,4.0,4.38,"Lower middle (15,000-30,000)",City,No,60%-79%,No,3,9th,8.525,8.325
+STU000258,Computer Science and Engineering,Female,3.58,4.44,"Upper middle (30,000-50,000)",Village,No,60%-79%,No,2,8th,8.375,8.325
+STU000259,Computer Science and Engineering,Female,4.5,4.75,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,4,8th,8.875,8.325
+STU000260,Computer Science and Engineering,Male,4.5,4.75,"Lower middle (15,000-30,000)",Village,Yes,60%-79%,No,3,8th,7.1499999999999995,8.325
+STU000261,Computer Science and Engineering,Male,4.33,5.0,"Upper middle (30,000-50,000)",City,Yes,60%-79%,No,4,8th,8.5,8.325
+STU000262,Computer Science and Engineering,Female,3.83,4.89,"High (Above 50,000) ",City,No,60%-79%,No,3,7th,8.55,8.325
+STU000263,Computer Science and Engineering,Male,3.5,4.61,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,3,6th,8.45,8.325
+STU000264,Computer Science and Engineering,Male,4.0,4.89,"High (Above 50,000)",Village,No,60%-79%,No,3,5th,8.5,8.325
+STU000265,Computer Science and Engineering,Male,4.25,4.94,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,3,5th,8.55,8.325
+STU000266,Computer Science and Engineering,Female,5.0,5.0,"Low (Below 15,000) ",Village,No,60%-79%,No,3,5th,8.55,8.325
+STU000267,Computer Science and Engineering,Male,4.17,4.89,"Upper middle (30,000-50,000)",City,Yes,60%-79%,No,4,3rd,8.55,8.325
+STU000268,Computer Science and Engineering,Male,4.17,4.95,"High (Above 50,000)",Village,No,60%-79%,No,4,2nd,8.375,8.375
+STU000269,Computer Science and Engineering,Male,4.5,4.75,"Upper middle (30,000-50,000)",Village,Yes,80%-100%,No,3,8th,7.8500000000000005,8.425
+STU000270,Computer Science and Engineering,Female,4.08,5.0,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,4,2nd,8.45,8.45
+STU000271,Computer Science and Engineering,Male,3.75,4.95,"Upper middle (30,000-50,000)",Village,Yes,60%-79%,No,3,2nd,8.45,8.45
+STU000272,Computer Science and Engineering,Male,4.42,4.89,"High (Above 50,000) ",Village,Yes,60%-79%,No,3,2nd,8.45,8.45
+STU000273,Computer Science and Engineering,Male,4.75,4.09,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,4,2nd,8.45,8.45
+STU000274,Computer Science and Engineering,Male,4.25,5.0,"Lower middle (15,000-30,000)",City,No,60%-79%,No,4,2nd,8.45,8.45
+STU000275,Computer Science and Engineering,Female,3.58,5.0,"Upper middle (30,000-50,000)",Village,No,60%-79%,No,2,2nd,8.45,8.45
+STU000276,Computer Science and Engineering,Female,4.17,4.83,"Lower middle (15,000-30,000)",Village,Yes,60%-79%,No,3,2nd,8.45,8.45
+STU000277,Computer Science and Engineering,Male,3.42,4.68,"Lower middle (15,000-30,000)",Village,Yes,60%-79%,No,2,2nd,8.45,8.45
+STU000278,Computer Science and Engineering,Male,3.67,4.89,"Low (Below 15,000)",Village,No,80%-100%,Yes,4,10th,8.25,8.475
+STU000279,Computer Science and Engineering,Male,4.5,4.75,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,4,7th,9.575,8.475
+STU000280,Computer Science and Engineering,Female,4.5,4.75,"Upper middle (30,000-50,000)",Village,Yes,80%-100%,No,4,8th,8.175,8.575000000000001
+STU000281,Computer Science and Engineering,Female,4.83,5.0,"High (Above 50,000)",City,No,80%-100%,No,4,11th,8.9,8.6
+STU000282,Computer Science and Engineering,Male,4.33,5.0,"Low (Below 15,000)",Village,No,60%-79%,No,5,10th,9.0,8.6
+STU000283,Computer Science and Engineering,Male,4.33,5.0,"High (Above 50,000)",Village,Yes,60%-79%,No,5,8th,8.975,8.6
+STU000284,Computer Science and Engineering,Female,4.55,5.0,"High (Above 50,000)",City,No,60%-79%,No,3,2nd,8.6,8.6
+STU000285,Computer Science and Engineering,Male,4.25,4.89,"Low (Below 15,000)",City,Yes,60%-79%,No,4,2nd,8.6,8.6
+STU000286,Computer Science and Engineering,Male,3.92,5.0,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,3,2nd,8.6,8.6
+STU000287,Computer Science and Engineering,Female,4.75,5.0,"Upper middle (30,000-50,000)",Village,Yes,60%-79%,No,1,11th,8.8,8.625
+STU000288,Computer Science and Engineering,Male,4.5,4.75,"Upper middle (30,000-50,000)",Village,Yes,60%-79%,No,4,3rd,7.3,8.65
+STU000289,Computer Science and Engineering,Male,5.0,5.0,"Lower middle (15,000-30,000)",City,Yes,80%-100%,No,4,2nd,8.7,8.7
+STU000290,Computer Science and Engineering,Male,3.5,4.8,"High (Above 50,000)",City,Yes,40%-59%,No,5,11th,7.55,8.75
+STU000291,Computer Science and Engineering,Female,5.0,5.0,"Lower middle (15,000-30,000)",City,No,80%-100%,Yes,5,4th,5.175,8.75
+STU000292,Computer Science and Engineering,Male,4.53,4.75,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,4,10th,7.5,8.75
+STU000293,Computer Science and Engineering,Male,4.42,4.88,"Low (Below 15,000)",Village,No,80%-100%,No,3,10th,9.399999999999999,8.75
+STU000294,Computer Science and Engineering,Male,4.58,5.0,"High (Above 50,000)",Village,Yes,80%-100%,No,4,9th,9.25,8.75
+STU000295,Computer Science and Engineering,Female,3.5,4.81,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,5,9th,9.5,8.75
+STU000296,Computer Science and Engineering,Male,5.0,5.0,"Upper middle (30,000-50,000)",City,Yes,80%-100%,No,5,8th,10.0,8.75
+STU000297,Computer Science and Engineering,Male,4.58,5.0,"Lower middle (15,000-30,000)",City,Yes,80%-100%,No,5,8th,9.45,8.75
+STU000298,Computer Science and Engineering,Female,4.83,5.0,"High (Above 50,000)",City,No,80%-100%,No,3,7th,9.575,8.75
+STU000299,Computer Science and Engineering,Female,4.33,5.0,"High (Above 50,000) ",City,Yes,80%-100%,No,5,7th,9.525,8.75
+STU000300,Computer Science and Engineering,Female,4.25,5.0,"Upper middle (30,000-50,000)",Village,No,80%-100%,No,5,6th,9.525,8.75
+STU000301,Computer Science and Engineering,Male,4.33,5.0,"Low (Below 15,000) ",Village,Yes,80%-100%,No,4,6th,9.375,8.75
+STU000302,Computer Science and Engineering,Male,3.75,4.67,"Upper middle (30,000-50,000)",Village,No,80%-100%,No,3,5th,9.575,8.75
+STU000303,Computer Science and Engineering,Male,4.58,5.0,"High (Above 50,000)",Village,No,80%-100%,No,3,5th,9.375,8.75
+STU000304,Computer Science and Engineering,Female,3.67,4.61,"High (Above 50,000)",City,No,60%-79%,No,3,2nd,8.75,8.75
+STU000305,Computer Science and Engineering,Female,3.75,4.78,"Upper middle (30,000-50,000)",Village,Yes,60%-79%,No,3,2nd,8.75,8.75
+STU000306,Computer Science and Engineering,Male,4.17,4.94,"Low (Below 15,000)",Village,No,60%-79%,No,3,2nd,8.75,8.75
+STU000307,Computer Science and Engineering,Male,4.0,5.0,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,4,2nd,8.75,8.75
+STU000308,Computer Science and Engineering,Male,3.75,4.61,"Low (Below 15,000) ",Village,Yes,60%-79%,No,3,2nd,8.75,8.75
+STU000309,Computer Science and Engineering,Male,4.08,5.0,"High (Above 50,000)",City,Yes,60%-79%,No,3,2nd,8.75,8.75
+STU000310,Computer Science and Engineering,Female,4.33,4.94,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,3,2nd,8.75,8.75
+STU000311,Computer Science and Engineering,Male,4.57,5.0,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,5,11th,9.8,8.85
+STU000312,Computer Science and Engineering,Female,4.5,4.75,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,5,10th,8.55,8.875
+STU000313,Computer Science and Engineering,Male,4.52,4.75,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,3,10th,8.55,8.875
+STU000314,Computer Science and Engineering,Male,3.58,5.0,"Low (Below 15,000)",Village,No,60%-79%,No,5,9th,8.924999999999999,8.9
+STU000315,Computer Science and Engineering,Female,4.17,5.0,"Upper middle (30,000-50,000) ",Village,No,60%-79%,No,3,2nd,8.9,8.9
+STU000316,Computer Science and Engineering,Female,4.25,5.0,"Lower middle (15,000-30,000)",Village,Yes,60%-79%,No,5,2nd,8.9,8.9
+STU000317,Computer Science and Engineering,Male,4.33,5.0,"High (Above 50,000)",Village,Yes,60%-79%,No,5,2nd,8.9,8.9
+STU000318,Computer Science and Engineering,Female,3.83,4.59,"Lower middle (15,000-30,000)",City,No,60%-79%,No,3,2nd,8.9,8.9
+STU000319,Computer Science and Engineering,Male,4.17,4.59,"Upper middle (30,000-50,000)",Village,No,60%-79%,No,4,2nd,8.9,8.9
+STU000320,Computer Science and Engineering,Female,4.17,5.0,"Low (Below 15,000) ",Village,Yes,60%-79%,No,3,2nd,8.9,8.9
+STU000321,Computer Science and Engineering,Male,4.0,5.0,"High (Above 50,000)",Village,Yes,60%-79%,No,3,2nd,8.9,8.9
+STU000322,Computer Science and Engineering,Female,4.0,5.0,"High (Above 50,000)",City,Yes,60%-79%,No,3,2nd,8.9,8.9
+STU000323,Computer Science and Engineering,Female,4.42,5.0,"High (Above 50,000) ",City,No,60%-79%,No,4,2nd,8.9,8.9
+STU000324,Computer Science and Engineering,Male,3.92,4.18,"High (Above 50,000)",City,No,60%-79%,No,3,2nd,8.9,8.9
+STU000325,Computer Science and Engineering,Male,5.0,5.0,"Low (Below 15,000)",Village,No,80%-100%,No,1,4th,9.1,9.0
+STU000326,Computer Science and Engineering,Female,3.83,5.0,"High (Above 50,000)",City,Yes,60%-79%,No,3,10th,9.025,9.0
+STU000327,Computer Science and Engineering,Male,5.0,5.0,"Low (Below 15,000)",Village,Yes,60%-79%,No,5,10th,9.05,9.0
+STU000328,Computer Science and Engineering,Male,3.92,3.94,"Lower middle (15,000-30,000)",City,No,60%-79%,No,3,9th,9.1,9.0
+STU000329,Computer Science and Engineering,Male,3.67,4.44,"High (Above 50,000) ",Village,No,60%-79%,No,3,6th,9.075,9.0
+STU000330,Computer Science and Engineering,Male,5.0,5.0,"Upper middle (30,000-50,000)",City,Yes,80%-100%,Yes,5,4th,9.15,9.025
+STU000331,Computer Science and Engineering,Female,4.16,4.67,"Upper middle (30,000-50,000)",City,No,80%-100%,No,3,10th,9.15,9.05
+STU000332,Computer Science and Engineering,Male,4.83,5.0,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,3,2nd,9.075,9.075
+STU000333,Computer Science and Engineering,Female,4.25,5.0,"Lower middle (15,000-30,000)",City,No,60%-79%,No,3,2nd,9.075,9.075
+STU000334,Computer Science and Engineering,Male,4.5,5.0,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,4,11th,9.7,9.1
+STU000335,Computer Science and Engineering,Male,3.5,4.72,"High (Above 50,000) ",City,Yes,60%-79%,No,3,2nd,9.1,9.1
+STU000336,Computer Science and Engineering,Female,3.75,5.0,"Low (Below 15,000)",Village,Yes,80%-100%,No,4,11th,9.275,9.125
+STU000337,Computer Science and Engineering,Female,5.0,5.0,"Upper middle (30,000-50,000)",City,Yes,80%-100%,Yes,3,4th,9.0,9.125
+STU000338,Computer Science and Engineering,Male,4.42,5.0,"High (Above 50,000)",City,Yes,80%-100%,No,4,10th,8.825,9.175
+STU000339,Computer Science and Engineering,Male,4.5,5.0,"Upper middle (30,000-50,000)",City,Yes,60%-79%,No,3,10th,8.75,9.175
+STU000340,Computer Science and Engineering,Male,4.42,5.0,"Upper middle (30,000-50,000)",Village,Yes,60%-79%,No,5,10th,8.875,9.175
+STU000341,Computer Science and Engineering,Male,3.17,4.31,"High (Above 50,000)",Village,No,60%-79%,No,3,9th,8.75,9.175
+STU000342,Computer Science and Engineering,Female,3.67,4.38,"Upper middle (30,000-50,000)",Village,Yes,80%-100%,No,4,8th,8.8,9.175
+STU000343,Computer Science and Engineering,Male,3.83,4.94,"Upper middle (30,000-50,000)",City,Yes,60%-79%,No,3,8th,8.774999999999999,9.175
+STU000344,Computer Science and Engineering,Male,4.33,5.0,"High (Above 50,000)",Village,No,80%-100%,No,4,8th,8.8,9.175
+STU000345,Computer Science and Engineering,Male,4.5,5.0,"Low (Below 15,000) ",Village,Yes,60%-79%,No,3,6th,8.75,9.175
+STU000346,Computer Science and Engineering,Male,4.08,5.0,"High (Above 50,000)",City,No,60%-79%,No,3,6th,8.75,9.175
+STU000347,Computer Science and Engineering,Male,5.0,5.0,"Low (Below 15,000) ",City,Yes,60%-79%,No,3,5th,8.75,9.175
+STU000348,Computer Science and Engineering,Female,5.0,5.0,"High (Above 50,000)",City,Yes,80%-100%,No,3,2nd,9.200000000000001,9.200000000000001
+STU000349,Computer Science and Engineering,Male,4.42,5.0,"Low (Below 15,000)",Village,Yes,80%-100%,No,2,2nd,9.225,9.225
+STU000350,Computer Science and Engineering,Male,4.17,5.0,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,2,2nd,9.225,9.225
+STU000351,Computer Science and Engineering,Male,4.0,4.0,"Upper middle (30,000-50,000)",Village,Yes,80%-100%,No,3,10th,10.0,9.25
+STU000352,Computer Science and Engineering,Male,4.17,5.0,"Upper middle (30,000-50,000)",City,No,80%-100%,Yes,4,10th,4.55,9.25
+STU000353,Computer Science and Engineering,Female,4.25,3.75,"Lower middle (15,000-30,000)",City,Yes,60%-79%,No,3,10th,7.95,9.25
+STU000354,Computer Science and Engineering,Male,3.14,4.44,"Upper middle (30,000-50,000)",City,Yes,60%-79%,No,3,10th,8.0,9.25
+STU000355,Computer Science and Engineering,Female,3.19,4.81,"Low (Below 15,000)",Village,Yes,80%-100%,No,4,9th,7.9,9.25
+STU000356,Computer Science and Engineering,Female,4.0,5.0,"Lower middle (15,000-30,000)",Village,Yes,60%-79%,No,5,8th,7.975,9.25
+STU000357,Computer Science and Engineering,Male,4.17,5.0,"High (Above 50,000) ",City,Yes,60%-79%,No,3,7th,7.925,9.25
+STU000358,Computer Science and Engineering,Female,3.8,4.78,"High (Above 50,000) ",Village,Yes,60%-79%,No,4,6th,7.975,9.25
+STU000359,Computer Science and Engineering,Male,3.75,4.78,"High (Above 50,000)",City,No,60%-79%,No,4,5th,7.925,9.25
+STU000360,Computer Science and Engineering,Male,4.5,5.0,"High (Above 50,000)",City,No,80%-100%,No,5,5th,10.0,9.25
+STU000361,Computer Science and Engineering,Male,4.17,4.95,"Low (Below 15,000)",Village,Yes,80%-100%,No,3,2nd,9.25,9.25
+STU000362,Computer Science and Engineering,Male,4.67,4.5,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,3,2nd,9.25,9.25
+STU000363,Computer Science and Engineering,Male,5.0,5.0,"Low (Below 15,000)",Village,Yes,80%-100%,No,3,2nd,9.275,9.275
+STU000364,Computer Science and Engineering,Male,5.0,5.0,"Upper middle (30,000-50,000)",Village,No,80%-100%,No,3,10th,9.325,9.275
+STU000365,Computer Science and Engineering,Male,3.33,4.75,"High (Above 50,000) ",Village,Yes,80%-100%,No,4,9th,9.325,9.275
+STU000366,Computer Science and Engineering,Male,3.58,4.78,"Upper middle (30,000-50,000)",Village,Yes,80%-100%,No,4,7th,9.350000000000001,9.275
+STU000367,Computer Science and Engineering,Male,4.42,4.81,"Low (Below 15,000)",Village,Yes,80%-100%,No,4,10th,9.200000000000001,9.350000000000001
+STU000368,Computer Science and Engineering,Female,4.5,5.0,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,5,10th,9.200000000000001,9.350000000000001
+STU000369,Computer Science and Engineering,Male,5.0,5.0,"Upper middle (30,000-50,000)",Village,No,80%-100%,No,3,10th,9.625,9.350000000000001
+STU000370,Computer Science and Engineering,Female,5.0,5.0,"Upper middle (30,000-50,000)",Village,No,80%-100%,No,4,10th,9.625,9.350000000000001
+STU000371,Computer Science and Engineering,Female,4.0,4.44,"Lower middle (15,000-30,000)",City,Yes,80%-100%,No,4,9th,9.15,9.350000000000001
+STU000372,Computer Science and Engineering,Male,3.4,4.0,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,2,9th,9.25,9.350000000000001
+STU000373,Computer Science and Engineering,Male,3.58,4.5,"High (Above 50,000)",Village,No,80%-100%,No,5,8th,9.175,9.350000000000001
+STU000374,Computer Science and Engineering,Female,4.67,5.0,"High (Above 50,000) ",City,Yes,80%-100%,Yes,2,8th,9.675,9.350000000000001
+STU000375,Computer Science and Engineering,Male,4.08,5.0,"High (Above 50,000)",City,No,80%-100%,No,3,6th,9.15,9.350000000000001
+STU000376,Computer Science and Engineering,Male,3.83,4.83,"High (Above 50,000) ",Village,No,80%-100%,No,5,3rd,9.175,9.350000000000001
+STU000377,Computer Science and Engineering,Female,4.0,5.0,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,3,11th,9.75,9.375
+STU000378,Computer Science and Engineering,Female,4.0,5.0,"Low (Below 15,000)",Village,No,80%-100%,No,5,11th,9.025,9.375
+STU000379,Computer Science and Engineering,Male,4.25,5.0,"Low (Below 15,000)",Village,Yes,60%-79%,No,4,10th,10.0,9.375
+STU000380,Computer Science and Engineering,Male,5.0,5.0,"Lower middle (15,000-30,000)",City,No,80%-100%,No,5,9th,10.0,9.375
+STU000381,Computer Science and Engineering,Male,3.42,5.0,"Upper middle (30,000-50,000)",Village,No,80%-100%,No,5,9th,10.0,9.375
+STU000382,Computer Science and Engineering,Male,4.08,4.39,"Upper middle (30,000-50,000)",Village,No,80%-100%,No,5,5th,10.0,9.375
+STU000383,Computer Science and Engineering,Male,4.0,4.36,"High (Above 50,000) ",Village,No,80%-100%,No,5,3rd,10.0,9.375
+STU000384,Computer Science and Engineering,Female,3.92,4.89,"Lower middle (15,000-30,000)",City,Yes,80%-100%,No,3,2nd,9.375,9.375
+STU000385,Computer Science and Engineering,Male,4.5,5.0,"Upper middle (30,000-50,000)",City,Yes,80%-100%,No,3,2nd,9.375,9.375
+STU000386,Computer Science and Engineering,Female,4.0,4.83,"High (Above 50,000)",Village,Yes,80%-100%,No,4,2nd,9.375,9.375
+STU000387,Computer Science and Engineering,Female,4.17,4.83,"Lower middle (15,000-30,000)",City,Yes,80%-100%,No,3,2nd,9.375,9.375
+STU000388,Computer Science and Engineering,Male,4.25,4.72,"High (Above 50,000)",City,Yes,80%-100%,No,5,2nd,9.375,9.375
+STU000389,Computer Science and Engineering,Female,3.5,5.0,"Lower middle (15,000-30,000)",City,No,80%-100%,No,3,2nd,9.375,9.375
+STU000390,Computer Science and Engineering,Male,4.25,5.0,"High (Above 50,000) ",City,Yes,80%-100%,Yes,2,2nd,9.375,9.375
+STU000391,Computer Science and Engineering,Female,3.92,5.0,"Lower middle (15,000-30,000)",City,No,80%-100%,No,3,2nd,9.375,9.375
+STU000392,Computer Science and Engineering,Female,5.0,5.0,"Upper middle (30,000-50,000)",City,No,80%-100%,No,4,4th,9.15,9.399999999999999
+STU000393,Computer Science and Engineering,Male,4.58,5.0,"Upper middle (30,000-50,000)",Village,Yes,80%-100%,No,4,10th,9.725,9.45
+STU000394,Computer Science and Engineering,Female,5.0,5.0,"Upper middle (30,000-50,000)",City,Yes,80%-100%,No,3,10th,9.7,9.45
+STU000395,Computer Science and Engineering,Male,4.25,5.0,"High (Above 50,000)",Village,Yes,80%-100%,No,3,5th,9.7,9.45
+STU000396,Computer Science and Engineering,Male,4.75,5.0,"Lower middle (15,000-30,000)",Village,No,80%-100%,Yes,3,10th,9.375,9.5
+STU000397,Computer Science and Engineering,Male,5.0,5.0,"Lower middle (15,000-30,000)",City,No,80%-100%,No,4,4th,9.75,9.5
+STU000398,Computer Science and Engineering,Male,3.83,4.69,"Upper middle (30,000-50,000)",Village,Yes,80%-100%,No,4,10th,9.75,9.5
+STU000399,Computer Science and Engineering,Male,4.5,4.61,"High (Above 50,000)",City,Yes,80%-100%,No,3,6th,9.825000000000001,9.5
+STU000400,Computer Science and Engineering,Female,4.42,4.77,"Low (Below 15,000)",Village,No,80%-100%,No,3,3rd,9.8,9.5
+STU000401,Computer Science and Engineering,Female,4.08,5.0,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,5,2nd,9.525,9.525
+STU000402,Computer Science and Engineering,Female,4.08,4.82,"Lower middle (15,000-30,000)",City,Yes,80%-100%,No,5,2nd,9.525,9.525
+STU000403,Computer Science and Engineering,Female,4.5,4.95,"Upper middle (30,000-50,000)",City,Yes,80%-100%,No,5,2nd,9.525,9.525
+STU000404,Computer Science and Engineering,Male,5.0,5.0,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,5,2nd,9.525,9.525
+STU000405,Computer Science and Engineering,Male,4.17,4.95,"Lower middle (15,000-30,000)",City,No,80%-100%,No,5,2nd,9.525,9.525
+STU000406,Computer Science and Engineering,Female,4.17,5.0,"Lower middle (15,000-30,000)",City,No,80%-100%,No,5,2nd,9.525,9.525
+STU000407,Computer Science and Engineering,Female,4.33,4.59,"High (Above 50,000)",City,Yes,80%-100%,No,5,2nd,9.525,9.525
+STU000408,Computer Science and Engineering,Male,3.83,5.0,"Lower middle (15,000-30,000)",City,Yes,80%-100%,No,5,2nd,9.525,9.525
+STU000409,Computer Science and Engineering,Male,4.42,4.68,"High (Above 50,000)",Village,Yes,80%-100%,No,3,2nd,9.6,9.6
+STU000410,Computer Science and Engineering,Male,4.83,4.89,"Lower middle (15,000-30,000)",City,Yes,80%-100%,No,4,5th,9.175,9.675
+STU000411,Computer Science and Engineering,Female,5.0,4.61,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,3,2nd,9.7,9.7
+STU000412,Computer Science and Engineering,Female,4.08,5.0,"Low (Below 15,000)",City,No,80%-100%,No,3,2nd,9.7,9.7
+STU000413,Computer Science and Engineering,Male,4.5,4.89,"High (Above 50,000) ",Village,Yes,80%-100%,No,3,2nd,9.7,9.7
+STU000414,Computer Science and Engineering,Female,5.0,5.0,"Lower middle (15,000-30,000)",City,Yes,80%-100%,No,3,2nd,9.7,9.7
+STU000415,Computer Science and Engineering,Male,4.42,5.0,"High (Above 50,000)",City,No,80%-100%,Yes,5,2nd,9.7,9.7
+STU000416,Computer Science and Engineering,Male,4.25,5.0,"Low (Below 15,000)",Village,Yes,80%-100%,No,3,2nd,9.7,9.7
+STU000417,Computer Science and Engineering,Male,5.0,5.0,"Lower middle (15,000-30,000)",City,No,80%-100%,No,3,2nd,9.7,9.7
+STU000418,Computer Science and Engineering,Male,5.0,5.0,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,4,2nd,9.725,9.725
+STU000419,Computer Science and Engineering,Female,5.0,5.0,"Low (Below 15,000)",Village,No,80%-100%,No,1,2nd,9.775,9.775
+STU000420,Computer Science and Engineering,Female,5.0,5.0,"High (Above 50,000)",Village,No,80%-100%,No,3,2nd,9.825000000000001,9.825000000000001
+STU000421,Computer Science and Engineering,Female,4.17,5.0,"High (Above 50,000)",City,Yes,80%-100%,No,3,10th,9.85,9.85
+STU000422,Computer Science and Engineering,Female,5.0,5.0,"Upper middle (30,000-50,000)",City,No,80%-100%,No,3,10th,9.925,9.85
+STU000423,Computer Science and Engineering,Male,4.75,5.0,"Lower middle (15,000-30,000)",City,No,80%-100%,No,3,10th,9.85,9.85
+STU000424,Computer Science and Engineering,Male,5.0,5.0,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,Yes,5,6th,9.95,9.85
+STU000425,Computer Science and Engineering,Female,4.3,5.0,"Upper middle (30,000-50,000)",Village,No,80%-100%,No,3,6th,9.85,9.85
+STU000426,Computer Science and Engineering,Male,3.81,4.39,"Upper middle (30,000-50,000)",Village,Yes,80%-100%,No,3,2nd,9.85,9.85
+STU000427,Computer Science and Engineering,Male,4.0,4.39,"High (Above 50,000)  ",Village,No,80%-100%,No,3,2nd,9.85,9.85
+STU000428,Computer Science and Engineering,Female,4.42,5.0,"High (Above 50,000)",City,Yes,80%-100%,No,3,2nd,9.85,9.85
+STU000429,Computer Science and Engineering,Male,4.17,4.82,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,3,2nd,9.85,9.85
+STU000430,Computer Science and Engineering,Male,3.75,4.78,"Upper middle (30,000-50,000)",City,Yes,80%-100%,No,3,2nd,9.85,9.85
+STU000431,Computer Science and Engineering,Male,4.42,4.95,"Upper middle (30,000-50,000)",Village,No,80%-100%,No,3,2nd,9.85,9.85
+STU000432,Computer Science and Engineering,Female,5.0,5.0,"High (Above 50,000)",Village,Yes,80%-100%,No,3,2nd,9.85,9.85
+STU000433,Computer Science and Engineering,Female,4.0,4.68,"Lower middle (15,000-30,000)",City,Yes,80%-100%,No,3,2nd,9.85,9.85
+STU000434,Computer Science and Engineering,Male,4.5,4.75,"Upper middle (30,000-50,000)",Village,No,80%-100%,No,4,8th,10.0,9.875
+STU000435,Computer Science and Engineering,Male,5.0,5.0,"Lower middle (15,000-30,000)",City,No,80%-100%,No,4,4th,10.0,9.9
+STU000436,Computer Science and Engineering,Male,4.58,5.0,"Lower middle (15,000-30,000)",City,No,80%-100%,No,3,11th,10.0,9.95
+STU000437,Computer Science and Engineering,Male,5.0,5.0,"Upper middle (30,000-50,000)",City,Yes,60%-79%,No,4,4th,10.0,10.0
+STU000438,Computer Science and Engineering,Female,5.0,5.0,"High (Above 50,000)",City,No,80%-100%,No,4,3rd,10.0,10.0
+STU000439,Computer Science and Engineering,Male,5.0,5.0,"Low (Below 15,000)",Village,Yes,80%-100%,No,5,2nd,10.0,10.0
+STU000440,Computer Science and Engineering,Male,5.0,5.0,"Low (Below 15,000)",Village,No,80%-100%,No,3,2nd,10.0,10.0
+STU000441,Computer Science and Engineering,Male,5.0,5.0,"Low (Below 15,000)",City,Yes,80%-100%,No,3,2nd,10.0,10.0
+STU000442,Computer Science and Engineering,Male,4.58,5.0,"High (Above 50,000)",City,Yes,80%-100%,No,5,2nd,10.0,10.0
+STU000443,Computer Science and Engineering,Female,4.92,5.0,"High (Above 50,000)",City,No,80%-100%,No,5,2nd,10.0,10.0
+STU000444,Computer Science and Engineering,Male,4.33,5.0,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,5,2nd,10.0,10.0
+STU000445,Computer Science and Engineering,Male,5.0,5.0,"Lower middle (15,000-30,000)",City,No,80%-100%,No,5,2nd,10.0,10.0
+STU000446,Computer Science and Engineering,Female,5.0,5.0,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,5,2nd,10.0,10.0
+STU000447,Computer Science and Engineering,Female,5.0,5.0,"Lower middle (15,000-30,000)",City,Yes,80%-100%,No,5,2nd,10.0,10.0
+STU000448,Computer Science and Engineering,Female,4.17,5.0,"Upper middle (30,000-50,000)",Village,Yes,80%-100%,No,5,2nd,10.0,10.0
+STU000449,Economics,Male,4.17,5.0,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,3,11th,7.8500000000000005,9.25
+STU000450,Economics,Male,4.75,4.83,"Low (Below 15,000)",Village,No,60%-79%,No,2,4th,9.15,9.350000000000001
+STU000451,Economics,Male,4.9,5.0,"High (Above 50,000)",City,Yes,80%-100%,No,4,10th,9.5,9.375
+STU000452,Economics,Male,5.0,4.83,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,3,2nd,10.0,10.0
+STU000453,Electrical and Electronic Engineering,Male,3.42,4.33,"Lower middle (15,000-30,000)",City,No,80%-100%,Yes,2,7th,9.575,7.425000000000001
+STU000454,English,Female,3.5,4.2,"Upper middle (30,000-50,000)",City,Yes,60%-79%,No,2,6th,8.125,7.875
+STU000455,English,Male,4.33,4.39,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,4,4th,8.125,8.299999999999999
+STU000456,English,Female,4.5,4.0,"Upper middle (30,000-50,000)",City,Yes,60%-79%,No,3,7th,8.325,8.325
+STU000457,English,Male,3.58,4.88,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,4,11th,8.375,8.625
+STU000458,English,Female,5.0,5.0,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,3,5th,8.575000000000001,8.675
+STU000459,English,Female,5.0,5.0,"Low (Below 15,000)",Village,Yes,80%-100%,No,5,3rd,8.875,8.675
+STU000460,English,Female,5.0,5.0,"Low (Below 15,000)",City,No,80%-100%,No,3,3rd,8.95,8.9
+STU000461,English,Male,4.25,4.41,"Upper middle (30,000-50,000)",Village,No,80%-100%,No,4,12th,9.15,9.0
+STU000462,English,Female,4.25,5.0,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,4,10th,9.375,9.200000000000001
+STU000463,English,Female,4.25,5.0,"Lower middle (15,000-30,000)",City,No,80%-100%,No,4,10th,9.625,9.350000000000001
+STU000464,English,Female,4.25,4.68,"High (Above 50,000)",City,Yes,80%-100%,No,5,3rd,9.275,9.375
+STU000465,English,Male,5.0,5.0,"Lower middle (15,000-30,000)",City,Yes,80%-100%,No,4,4th,9.825000000000001,9.5
+STU000466,English,Female,4.58,5.0,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,5,3rd,9.575,9.575
+STU000467,English,Male,5.0,5.0,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,3,4th,10.0,9.825000000000001
+STU000468,"Journalism, Communication and Media Studies",Male,3.27,4.82,"Upper middle (30,000-50,000)",City,Yes,40%-59%,No,3,2nd,5.625,5.625
+STU000469,"Journalism, Communication and Media Studies",Female,4.67,4.56,"Upper middle (30,000-50,000)",City,Yes,60%-79%,No,4,2nd,6.25,6.25
+STU000470,"Journalism, Communication and Media Studies",Male,3.83,3.0,"Low (Below 15,000)",Village,Yes,80%-100%,No,3,3rd,7.925,7.5
+STU000471,"Journalism, Communication and Media Studies",Male,4.42,3.94,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,5,2nd,7.725,7.725
+STU000472,"Journalism, Communication and Media Studies",Female,4.5,4.28,"Lower middle (15,000-30,000)",Village,No,80%-100%,No,2,2nd,7.925,7.925
+STU000473,"Journalism, Communication and Media Studies",Female,3.08,3.33,"Lower middle (15,000-30,000)",Village,No,60%-79%,No,3,3rd,5.425,8.75
+STU000474,"Journalism, Communication and Media Studies",Male,4.53,3.91,"Low (Below 15,000)",Village,No,80%-100%,No,2,3rd,9.575,8.75
+STU000475,"Journalism, Communication and Media Studies",Female,4.5,4.34,"High (Above 50,000)",Village,Yes,80%-100%,No,5,2nd,8.75,8.75
+STU000476,"Journalism, Communication and Media Studies",Male,4.0,4.0,"Upper middle (30,000-50,000)",City,Yes,80%-100%,No,3,12th,8.9,9.0
+STU000477,"Journalism, Communication and Media Studies",Female,2.85,3.64,"Low (Below 15,000)",City,No,80%-100%,Yes,3,6th,8.75,9.175
+STU000478,"Journalism, Communication and Media Studies",Male,4.0,4.33,"Upper middle (30,000-50,000)",City,Yes,80%-100%,No,3,11th,9.7,9.45
+STU000479,"Journalism, Communication and Media Studies",Male,3.17,3.17,"Lower middle (15,000-30,000)",City,Yes,80%-100%,No,3,3rd,9.575,9.5
+STU000480,"Journalism, Communication and Media Studies",Female,4.42,4.72,"Lower middle (15,000-30,000)",City,Yes,80%-100%,No,3,12th,10.0,10.0
+STU000481,Law and Human Rights,Female,5.0,5.0,"Low (Below 15,000)",Village,Yes,80%-100%,No,4,2nd,9.225,9.225
+STU000482,Law and Human Rights,Female,3.58,4.86,"Lower middle (15,000-30,000)",Village,Yes,60%-79%,No,1,4th,9.75,9.475
+STU000483,Political Science,Female,3.5,4.0,"Upper middle (30,000-50,000)",City,Yes,80%-100%,Yes,5,10th,7.875,7.125
+STU000484,Political Science,Male,5.0,4.94,"High (Above 50,000)",City,Yes,Below 40%,No,4,2nd,8.275,8.275
+STU000485,Political Science,Male,5.0,4.68,"Low (Below 15,000)",City,No,80%-100%,No,5,5th,8.9,8.9
+STU000486,Political Science,Female,4.25,3.72,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,Yes,1,2nd,9.200000000000001,9.200000000000001
+STU000487,Political Science,Female,5.0,4.89,"High (Above 50,000)",Village,Yes,80%-100%,No,2,3rd,9.7,9.7
+STU000488,Political Science,Male,5.0,4.78,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,1,2nd,9.85,9.85
+STU000489,Public Health,Male,3.5,4.0,"Lower middle (15,000-30,000)",Village,Yes,40%-59%,Yes,2,7th,8.125,7.75
+STU000490,Public Health,Male,4.5,4.0,"Upper middle (30,000-50,000)",City,Yes,60%-79%,No,3,9th,8.75,9.175
+STU000491,Sociology,Female,4.56,3.67,"Lower middle (15,000-30,000)",City,No,40%-59%,No,2,2nd,8.9,8.9
+STU000492,Sociology,Male,4.23,4.5,"Low (Below 15,000)",Village,No,80%-100%,No,3,10th,9.025,9.375
+STU000493,Sociology,Female,3.83,5.0,"Lower middle (15,000-30,000)",Village,Yes,80%-100%,No,4,12th,10.0,9.65
