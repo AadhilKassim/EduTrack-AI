@@ -1,5 +1,5 @@
 import requests
-import json
+#import json
 
 def test_recommendation():
     url = "http://localhost:5000/recommend"

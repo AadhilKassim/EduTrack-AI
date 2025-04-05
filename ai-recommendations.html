@@ -77,13 +77,13 @@
         <div id="ai-recommendations" class="text-gray-600">
             <div class="flex items-center justify-center h-32">
                 <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-[#5A4033]"></div>
-                <span class="ml-3">Loading recommendations...</span>
+                <span class="ml-3">Loading your recommendations...</span>
             </div>
         </div>
         <script>
             async function startBackend() {
                 try {
-                    await fetch("http://127.0.0.1:5000"); // Ping the backend to ensure it's running
+                    await fetch("http://127.0.0.1:5000");
                 } catch (error) {
                     console.error("Backend is not running. Please start ai-recommendation.py.");
                 }
