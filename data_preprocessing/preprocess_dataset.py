@@ -12,10 +12,10 @@ def preprocess_dataset(input_file_path, output_file_path):
     # Add student IDs as the first column
     df.insert(0, 'student_id', student_ids)
     
-    # Convert binary columns to proper binary format
-    binary_columns = df.select_dtypes(include=['object']).columns
-    for col in binary_columns:
-        df[col] = df[col].map({'Yes': 1, 'No': 0})
+    # Convert GPA columns from 4.0 to 10.0 scale
+    gpa_columns = ['Last', 'Overall']
+    for col in gpa_columns:
+        df[col] = (df[col] * 10) / 4
     
     # Save the preprocessed dataset
     df.to_csv(output_file_path, index=False)
@@ -32,8 +32,8 @@ def create_recommendation_matrix(df):
     return sparse_matrix
 
 if __name__ == "__main__":
-    input_file = "path/to/your/input/dataset.csv"
-    output_file = "path/to/your/processed/dataset.csv"
+    input_file = "providers\Randomized_ResearchInformation3.csv"
+    output_file = "providers\Randomized_ResearchInformation3_.csv"
     
     processed_df = preprocess_dataset(input_file, output_file)
     recommendation_matrix = create_recommendation_matrix(processed_df)

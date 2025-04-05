@@ -17,7 +17,7 @@ CORS(app)  # Enable CORS for all routes
 # Initialize recommender
 try:
     recommender = CourseRecommender()
-    data_path = project_root / "providers" / "Randomized_ResearchInformation3.csv"
+    data_path = project_root / "providers" / "Randomized_ResearchInformation3_.csv"
     
     if not data_path.exists():
         raise FileNotFoundError(f"Dataset not found at: {data_path}")

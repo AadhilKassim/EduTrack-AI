@@ -79,11 +79,24 @@
             <a href="pages/dashboard.html" class="text-[#5A4033] hover:underline">Back to Role Selection</a>
         </div>
     </div>
+    <script src="js/student-validation.js"></script>
     <script>
-        document.getElementById("studentLoginForm").addEventListener("submit", function (e) {
+        const form = document.getElementById("studentLoginForm");
+        
+        form.addEventListener("submit", function (e) {
             e.preventDefault();
-            // Simulate successful login and redirect
-            window.location.href = "../pages/dashboard.html";
+            const studentId = document.getElementById("studentId").value.trim().toUpperCase();
+            
+            if (!studentId.startsWith('STU')) {
+                alert("Please enter a valid student ID starting with 'STU'");
+                return;
+            }
+            
+            if (validateStudentId(studentId)) {
+                window.location.href = "../pages/dashboard.html";
+            } else {
+                alert("Invalid student ID. Please check your credentials.");
+            }
         });
     </script>
 </body>
